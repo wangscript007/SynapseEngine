@@ -1,0 +1,3714 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Texture2D::texPath' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Texture2D.h"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 2,
+                  "endLine": 13,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Texture2D@@QEAA@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture2D::texPath"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Texture2D::Height' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Texture2D.h"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 2,
+                  "endLine": 13,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Texture2D@@QEAA@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture2D::Height"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Texture2D::Width' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Texture2D.h"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 2,
+                  "endLine": 13,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Texture2D@@QEAA@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture2D::Width"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Texture2D::Alpha' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Texture2D.h"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 2,
+                  "endLine": 13,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Texture2D@@QEAA@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture2D::Alpha"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Texture2D::Raw' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Texture2D.h"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 2,
+                  "endLine": 13,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Texture2D@@QEAA@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Texture2D::Raw"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UIDragObject::ID2' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/DragObject.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UIDragObject@@QEAA@PEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UIDragObject::ID2"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UIDragObject::ID1' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/DragObject.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UIDragObject@@QEAA@PEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UIDragObject::ID1"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UIDragObject::Path' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/DragObject.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UIDragObject@@QEAA@PEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UIDragObject::Path"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UIDragObject::ID4' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/DragObject.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UIDragObject@@QEAA@PEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UIDragObject::ID4"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UIDragObject::ID3' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/DragObject.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UIDragObject@@QEAA@PEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UIDragObject::ID3"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MenuItem::Text' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/MainMenuControl.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 1,
+                  "endLine": 70,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MenuItem@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MenuItem::Text"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MenuItem::Icon' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/MainMenuControl.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 1,
+                  "endLine": 70,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MenuItem@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MenuItem::Icon"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MenuItem::Data' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/MainMenuControl.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 1,
+                  "endLine": 70,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MenuItem@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MenuItem::Data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MenuItem::DataInt' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/MainMenuControl.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 1,
+                  "endLine": 70,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MenuItem@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "MenuItem::DataInt"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'PadButton' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/ControlInput.h"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 7,
+                  "endLine": 23,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?IsPressed@ControlInput@@QEAA_NW4PadButton@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'ImageControl::Image' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/ImageControl.h"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 2,
+                  "endLine": 10,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImageControl@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "ImageControl::Image"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Mesh3D::VertexArray' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Mesh3D.h"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 2,
+                  "endLine": 8,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mesh3D@@QEAA@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Mesh3D::VertexArray"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Mesh3D::VertexBuffer' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Mesh3D.h"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 2,
+                  "endLine": 8,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mesh3D@@QEAA@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Mesh3D::VertexBuffer"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Mesh3D::IndexBuffer' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Mesh3D.h"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 2,
+                  "endLine": 8,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mesh3D@@QEAA@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Mesh3D::IndexBuffer"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Mesh3D::Mat' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/Mesh3D.h"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 2,
+                  "endLine": 8,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mesh3D@@QEAA@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Mesh3D::Mat"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'NodeType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/NodeBase.h"
+                },
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 3,
+                  "endLine": 135,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetType@NodeBase@@QEAA?AW4NodeType@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UserInput::myp' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/UserInput.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UserInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UserInput::myp"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UserInput::mxp' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/UserInput.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UserInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UserInput::mxp"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UserInput::lz' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/UserInput.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UserInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UserInput::lz"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UserInput::ly' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/UserInput.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UserInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UserInput::ly"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'UserInput::lx' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Project/VirtualWar/VirtualWar/UserInput.h"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 2,
+                  "endLine": 6,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0UserInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "UserInput::lx"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00D3C1C0 -il C:\\Users\\antro\\AppData\\Local\\Temp\\_CL_6f8840c5ast -typedil -f StateFpsTest.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930038 -D_MSC_BUILD=1 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Project\\VirtualWar\\VirtualWar\\packages\\glm.0.9.9.800\\build\\native\\include\\ -I C:\\Project\\VirtualWar\\VirtualWar\\packages\\freetype.2.8.0.1\\build\\native\\include\\ -I C:\\Project\\VirtualWar\\VirtualWar\\packages\\glfw.3.3.4\\build\\native\\include\\ -I C:\\Users\\antro\\vcpkg\\packages\\bullet3_x86-windows\\include\\bullet -I c:\\deps\\physx\\engine\\physx\\snippets\\Graphics\\include\\win32\\GL -I c:\\deps\\physx\\engine\\physx\\source\\foundation\\include -I c:\\deps\\physx\\engine\\pxshared\\include -I c:\\deps\\physx\\engine\\physx\\source\\physxextensions\\src -I c:\\deps\\physx\\engine\\physx\\include -I C:\\Project\\VirtualWar\\VirtualWar\\packages\\Assimp_native_4.1.4.1.0\\build\\native\\include -I C:\\Project\\VirtualWar\\VirtualWar\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DHAS_GLM -DHAS_FREETYPE -DHAS_GLFW -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -Fox64\\Debug\\StateFpsTest.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Project\\VirtualWar\\VirtualWar -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Project\\VirtualWar\\VirtualWar\\Include\\um -I C:\\Project\\VirtualWar\\VirtualWar\\Include\\um -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Project\\VirtualWar\\VirtualWar\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/Texture2D.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3c77f4e5122ce586f28261f8ee9527b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/material.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "417c4c0615c2ef81a79b80d66c475c78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/pch.h"
+          },
+          "hashes": {
+            "md5": "0224c966a968d98278151e4126f35fa7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/material.h"
+          },
+          "hashes": {
+            "md5": "bb21ab91b47dcf256c1f4fda48339741"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/vfile.h"
+          },
+          "hashes": {
+            "md5": "57048673fc0b28a5d4843acf23b96652"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/vstring.h"
+          },
+          "hashes": {
+            "md5": "9042e7aa690840ca27f6244a8d151861"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/gameincludes.h"
+          },
+          "hashes": {
+            "md5": "874c30e888e32ced4f0397c17ddddd55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/include/glad/gl.h"
+          },
+          "hashes": {
+            "md5": "d7e76263fa1777e45498a9993cb345e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/include/khr/khrplatform.h"
+          },
+          "hashes": {
+            "md5": "d03191518ac2cfc3c10d22df034b154a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glfw.3.3.4/build/native/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "md5": "3bd6b8c8a50a4064c4f8704c206032d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/keffect.h"
+          },
+          "hashes": {
+            "md5": "4d0d3972e8bd439c6d70d2a1c892f3b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/glm.hpp"
+          },
+          "hashes": {
+            "md5": "86e130898c9a16fa56a4e1a1d6e4b9bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/_fixes.hpp"
+          },
+          "hashes": {
+            "md5": "4258db4aa4db2fcf1b84b9c64e061c17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/setup.hpp"
+          },
+          "hashes": {
+            "md5": "450bc8dce28fceef2000a720658eeb5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/simd/platform.h"
+          },
+          "hashes": {
+            "md5": "c022767b43bffe870735e2000db2de2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/fwd.hpp"
+          },
+          "hashes": {
+            "md5": "61df6b1811b6a00fdbe94fca3152e9c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/qualifier.hpp"
+          },
+          "hashes": {
+            "md5": "ca5da67ccf529c70fd134f265a3a1ad4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/vec2.hpp"
+          },
+          "hashes": {
+            "md5": "2a69862d67d85af84158250d454875a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_bool2.hpp"
+          },
+          "hashes": {
+            "md5": "03e0316c5ed390f7777bc2e3887c71ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_vec2.hpp"
+          },
+          "hashes": {
+            "md5": "8be887b8a28588d9319b4a0ee51b88a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_vec2.inl"
+          },
+          "hashes": {
+            "md5": "964a5f2c7cbf4c7553dbb460050241d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/compute_vector_relational.hpp"
+          },
+          "hashes": {
+            "md5": "3dbc4c0370fd4f1afc2de835eef5ee2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_bool2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "1fa289fbdb4f7e3fbbdc8ea54f143b2e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_float2.hpp"
+          },
+          "hashes": {
+            "md5": "49dd688b9fd99a26ac358e2f6eef952a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_float2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "2970883af8ee8e73632605db7fa38582"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_double2.hpp"
+          },
+          "hashes": {
+            "md5": "6e89336c6c438cf8f842725b6d979bf5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_double2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "13999b208c8c9f89c80c2e83f10c5258"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_int2.hpp"
+          },
+          "hashes": {
+            "md5": "426f21371933605c17ded62b4e83f56d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_int2_sized.hpp"
+          },
+          "hashes": {
+            "md5": "0fef15a860b7857166afdcd123a3265c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_int_sized.hpp"
+          },
+          "hashes": {
+            "md5": "56922a1c4ea160d56d67645575d3c32b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_uint2.hpp"
+          },
+          "hashes": {
+            "md5": "fb1d0769086196ce9642c77939f64395"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_uint2_sized.hpp"
+          },
+          "hashes": {
+            "md5": "ea6d506440f1fc094a02fbc45066c07e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_uint_sized.hpp"
+          },
+          "hashes": {
+            "md5": "8dd47eb717f4dfd571b5074c5597ac46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/vec3.hpp"
+          },
+          "hashes": {
+            "md5": "30188f353bb3c74313eb54147568449f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_bool3.hpp"
+          },
+          "hashes": {
+            "md5": "9f1eb69356c03e6dad0472d65103ed89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_vec3.hpp"
+          },
+          "hashes": {
+            "md5": "1b42b53f984bd2fa9761314c81f03e44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_vec3.inl"
+          },
+          "hashes": {
+            "md5": "08032a97cc5f9e09df7a3e6ea54afda3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_bool3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "0caacc42ecbc6b95921dc848cd42230b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_float3.hpp"
+          },
+          "hashes": {
+            "md5": "9d538505432eede5b464649e83e6352a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_float3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "bb6a82373dbdf07ab4987983ff9625f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_double3.hpp"
+          },
+          "hashes": {
+            "md5": "2e908d1a60b45775bf54d07440b2e2ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_double3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "b0cb1d7e8daedd408c7914e56d4886aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_int3.hpp"
+          },
+          "hashes": {
+            "md5": "9177707955903f049664f893e56f1030"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_int3_sized.hpp"
+          },
+          "hashes": {
+            "md5": "6c3cfc77eee6618f0f4dfb090179aa25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_uint3.hpp"
+          },
+          "hashes": {
+            "md5": "25167e31b36c7793295da7510084070c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_uint3_sized.hpp"
+          },
+          "hashes": {
+            "md5": "e0e40d1e398b4c980d25e2b9ca0d462d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/vec4.hpp"
+          },
+          "hashes": {
+            "md5": "abcf6911267e379a78288d87e3bdcbe4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_bool4.hpp"
+          },
+          "hashes": {
+            "md5": "06880ff97b470a930eba055982f0ad9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_vec4.hpp"
+          },
+          "hashes": {
+            "md5": "d88e16a82edba11f0e7930fe191736ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_vec4.inl"
+          },
+          "hashes": {
+            "md5": "3a49a2c11e8043af63a6f643c6253da2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_bool4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "e3a3f70625137f2f8bd281f3375f4552"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_float4.hpp"
+          },
+          "hashes": {
+            "md5": "55b643da17a37bdc82f5cd74f09f64c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_float4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "18a43606bd9f0679bf05f1a85bd315bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_double4.hpp"
+          },
+          "hashes": {
+            "md5": "7304908ade91874f663a019949d4da9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_double4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "c4b32c85617367909dfff47bdc2bfd2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_int4.hpp"
+          },
+          "hashes": {
+            "md5": "ada224b16331467c3c41590d07ff6bec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_int4_sized.hpp"
+          },
+          "hashes": {
+            "md5": "47cbdc840d44755efb1226b176dba771"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_uint4.hpp"
+          },
+          "hashes": {
+            "md5": "64a5d3844628a9f22736ab0f0e306af4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_uint4_sized.hpp"
+          },
+          "hashes": {
+            "md5": "b7e9ed75d880e607dec273c238cc18a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat2x2.hpp"
+          },
+          "hashes": {
+            "md5": "f09d4c48512108de48e2c95a1f8297fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double2x2.hpp"
+          },
+          "hashes": {
+            "md5": "67f1076b5a202f71d4303846cbaa3f74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat2x2.hpp"
+          },
+          "hashes": {
+            "md5": "8000e2be27d42172560991c99c0499bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat2x2.inl"
+          },
+          "hashes": {
+            "md5": "de1a084eb0290d4499a15c1bd4825d59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/matrix.hpp"
+          },
+          "hashes": {
+            "md5": "42fd66519422162bea3542c3a73939b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat2x3.hpp"
+          },
+          "hashes": {
+            "md5": "f668df5af6f72c51d9bacd470955c565"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double2x3.hpp"
+          },
+          "hashes": {
+            "md5": "aaa1da294d1d8484119b34c506158849"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat2x3.hpp"
+          },
+          "hashes": {
+            "md5": "48ad9aee97558da3ecabc33d91d1edde"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat2x3.inl"
+          },
+          "hashes": {
+            "md5": "ec8f515d10da3dec68dc02b585fff126"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double2x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "468883a552985c38ec0852cd4553dbd9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float2x3.hpp"
+          },
+          "hashes": {
+            "md5": "c5c72f8544f47325d57ac2267e2ba800"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float2x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "9d8d4fa547b0516aae41e3006d396ff2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat2x4.hpp"
+          },
+          "hashes": {
+            "md5": "7d79eae01c98fe7540989aa66b0444af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double2x4.hpp"
+          },
+          "hashes": {
+            "md5": "7ded1199b1ec5b8baab5d2fed1308060"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat2x4.hpp"
+          },
+          "hashes": {
+            "md5": "510bcd0c9279d0c60bc261eb888622cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat2x4.inl"
+          },
+          "hashes": {
+            "md5": "0288d4ab20b1a11f4500684d5e1b8a54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double2x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "8d8bdd1e3ad9f9fdc77f286094a56f2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float2x4.hpp"
+          },
+          "hashes": {
+            "md5": "1fdfdde56f3483e76b67966cea5d5c13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float2x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "acff309f234e3dfe20efc23e4d6c2c55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat3x2.hpp"
+          },
+          "hashes": {
+            "md5": "8ddd1ea2f6968b984e75afc562311fcc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double3x2.hpp"
+          },
+          "hashes": {
+            "md5": "30ad62cf96f34da17012cf1f44117504"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat3x2.hpp"
+          },
+          "hashes": {
+            "md5": "1279679850187d2c2b2bee5dd53c6d12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat3x2.inl"
+          },
+          "hashes": {
+            "md5": "fb4c5af8d9eeffb1a62d056e2e461c12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double3x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "173487ed009d901886f1d4f49c83e99b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float3x2.hpp"
+          },
+          "hashes": {
+            "md5": "7ab36c6d6d9b3d299b88340397a0644f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float3x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "aa9fa7827108b83ce1b786faf90dda49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat3x3.hpp"
+          },
+          "hashes": {
+            "md5": "bdeac3c9494ab29b6063e7f20c5f3a76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double3x3.hpp"
+          },
+          "hashes": {
+            "md5": "fdadc029e2e2f979092f3558009bc24b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat3x3.hpp"
+          },
+          "hashes": {
+            "md5": "73516c1ba2f8c4bf2dbb11fdfee334bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat3x3.inl"
+          },
+          "hashes": {
+            "md5": "081bb36ee96b72e2890a55c7a536d7e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double3x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "39353cd1744b46aac8bfd44aa7670943"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float3x3.hpp"
+          },
+          "hashes": {
+            "md5": "0a894c4357b58bcd443799d4d70eca8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float3x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "573ce88c36556454fe90f8b2acf41064"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat3x4.hpp"
+          },
+          "hashes": {
+            "md5": "db69584ff612a22f46b6d3d0abf30b18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double3x4.hpp"
+          },
+          "hashes": {
+            "md5": "947b7fb951811fd726d796ddbbc51bf4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat3x4.hpp"
+          },
+          "hashes": {
+            "md5": "5fec13b77bddd12a687866900838f8ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat3x4.inl"
+          },
+          "hashes": {
+            "md5": "e317f3f3340b7d5a2507ca44b740bfa8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double3x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "e6779ff4c1759a8db0d6d986bcdb64ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float3x4.hpp"
+          },
+          "hashes": {
+            "md5": "39d375e30adc9f2def3e9e82ce2f72a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float3x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "14b646c38559751a2dc995f407c8b866"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat4x2.hpp"
+          },
+          "hashes": {
+            "md5": "14a23b93f932b144469b200e87b8f825"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double4x2.hpp"
+          },
+          "hashes": {
+            "md5": "b13ab8d95a29b67f5e1e94c7bb8e6df9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat4x2.hpp"
+          },
+          "hashes": {
+            "md5": "1b28ed5990a46ba43c55f0ee41a105cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat4x2.inl"
+          },
+          "hashes": {
+            "md5": "4bd9df27ee2ef5669ba648acd3d08722"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double4x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "79adfc17ac77ae525ad315f1dd9714d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float4x2.hpp"
+          },
+          "hashes": {
+            "md5": "987e6a564945a40805a6fda80503697c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float4x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "b0569fc05b029b4873f79f89c6ea632a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat4x3.hpp"
+          },
+          "hashes": {
+            "md5": "d4866acb2b555bdd47ab09ce17715510"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double4x3.hpp"
+          },
+          "hashes": {
+            "md5": "8b6a3b452070b64c909aa625f7797efc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat4x3.hpp"
+          },
+          "hashes": {
+            "md5": "ced466943788cfca5bb19249f89a5a7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat4x3.inl"
+          },
+          "hashes": {
+            "md5": "223db0fb2270ad5984daf86f771a0801"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double4x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "473f5150365f0484d1ba8c1c558b1746"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float4x3.hpp"
+          },
+          "hashes": {
+            "md5": "d0833389efe6d299c4afddc1fa41c71f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float4x3_precision.hpp"
+          },
+          "hashes": {
+            "md5": "3470646ee954d2a4ebac7a63b87890a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/mat4x4.hpp"
+          },
+          "hashes": {
+            "md5": "a7dcdf3d616f5ec44bf6e3886cef69d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double4x4.hpp"
+          },
+          "hashes": {
+            "md5": "d712f6bbe13d5e32d19389da62611617"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat4x4.hpp"
+          },
+          "hashes": {
+            "md5": "244f1a3f9face57382d4c8f671c1e297"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_mat4x4.inl"
+          },
+          "hashes": {
+            "md5": "e70aa231a312b414ce54928c71d79fdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double4x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "58dbe39d31ed909fee0dfa96b7febd2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float4x4.hpp"
+          },
+          "hashes": {
+            "md5": "f55fbdf3dbdf2e5a3d2a4055738ea7b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float4x4_precision.hpp"
+          },
+          "hashes": {
+            "md5": "b504e594a03c39d97e0ac65217756cf9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/func_matrix.inl"
+          },
+          "hashes": {
+            "md5": "4e4770dbced546f9b411b76cfdb53e7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/geometric.hpp"
+          },
+          "hashes": {
+            "md5": "2564acf12cfb14dffc775bba9d05def4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/func_geometric.inl"
+          },
+          "hashes": {
+            "md5": "20b7c0d583de755f76ed9ea6e7bfd7fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/exponential.hpp"
+          },
+          "hashes": {
+            "md5": "d0420791049cb2398cbaf2f534378744"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_vec1.hpp"
+          },
+          "hashes": {
+            "md5": "fab4fd42bc992c425f2e0c2c46ae34d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_vec1.inl"
+          },
+          "hashes": {
+            "md5": "b6fc4673b6f8e27efe98b5ccb43b49f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/func_exponential.inl"
+          },
+          "hashes": {
+            "md5": "b19f14dfb0cfa5ffaa0bdc722dc58583"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/vector_relational.hpp"
+          },
+          "hashes": {
+            "md5": "fc9e73be8c936c74b46c1113342f398c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/func_vector_relational.inl"
+          },
+          "hashes": {
+            "md5": "91234408444307e7d2d5374b0239bf08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/_vectorize.hpp"
+          },
+          "hashes": {
+            "md5": "f13f86894c3d12be4a4a5c05bd1b939d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/common.hpp"
+          },
+          "hashes": {
+            "md5": "7dd527c6e4e1d794bbdf2548d5bb557d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/func_common.inl"
+          },
+          "hashes": {
+            "md5": "bc98dd3ec040625d32c1212323148098"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/compute_common.hpp"
+          },
+          "hashes": {
+            "md5": "5ca0a92abc175d72ce50841ee56a11e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_double2x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "450bef16ce9975cf6eceb803837eea46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float2x2.hpp"
+          },
+          "hashes": {
+            "md5": "aba93c6e3189111b8c738ba96b22744e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_float2x2_precision.hpp"
+          },
+          "hashes": {
+            "md5": "3d06f51d7e991f5c3c8a2baee4198c26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/trigonometric.hpp"
+          },
+          "hashes": {
+            "md5": "7daa4eb621d3c7b2ef853d26b9bacf99"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/func_trigonometric.inl"
+          },
+          "hashes": {
+            "md5": "6b9b39951c52f79881c5f6a44bc147ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/packing.hpp"
+          },
+          "hashes": {
+            "md5": "d7359a27a6275b1d6239015770896026"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/func_packing.inl"
+          },
+          "hashes": {
+            "md5": "05831c7ec61e8f2de94180b63e575f3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_half.hpp"
+          },
+          "hashes": {
+            "md5": "37bd666b26f36fd2c230c580c8fe2a2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_half.inl"
+          },
+          "hashes": {
+            "md5": "f9dde417557b4a58bff42177fe48727f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/integer.hpp"
+          },
+          "hashes": {
+            "md5": "9c1f4e4cccc9c898d20a19923cd6d9b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/func_integer.inl"
+          },
+          "hashes": {
+            "md5": "408e40bdbf5bbe602a4e3c13f4c0c299"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext.hpp"
+          },
+          "hashes": {
+            "md5": "a8dc4d13517d95b1e8f7621b304f72f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_clip_space.hpp"
+          },
+          "hashes": {
+            "md5": "c6a778dd1dd57d8892c04d1d3884c05b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_constants.hpp"
+          },
+          "hashes": {
+            "md5": "8d0ab6540c5607c6ffe14b2d4661abc1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_constants.inl"
+          },
+          "hashes": {
+            "md5": "597ae54cdaa8fb2b98eccfb5582ff6f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_clip_space.inl"
+          },
+          "hashes": {
+            "md5": "f515518d4c61f2aac78130fc28cb15c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_common.hpp"
+          },
+          "hashes": {
+            "md5": "8ff3f973054e18ae86a51d13f4c7efb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_common.inl"
+          },
+          "hashes": {
+            "md5": "d0529f3118b4f31fccbb2e4256cd082e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int2x2.hpp"
+          },
+          "hashes": {
+            "md5": "de6f47ed45c44bb0985d9f58910570f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int2x2_sized.hpp"
+          },
+          "hashes": {
+            "md5": "e7c1da89e2857ae785b7b514950a271f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int2x3.hpp"
+          },
+          "hashes": {
+            "md5": "8e5e39e10153428e594a04e1f5659af1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int2x3_sized.hpp"
+          },
+          "hashes": {
+            "md5": "6be1aed98074fc87a025b2015954038d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int2x4.hpp"
+          },
+          "hashes": {
+            "md5": "adac4664864dd64047b9d4ac111c8c9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int2x4_sized.hpp"
+          },
+          "hashes": {
+            "md5": "5bcbfcab4cc126635375ae63b113c822"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int3x2.hpp"
+          },
+          "hashes": {
+            "md5": "b3b4b195fb1a3452e970236e87e65560"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int3x2_sized.hpp"
+          },
+          "hashes": {
+            "md5": "06235cc54dabf042e1aec745bd9ac703"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int3x3.hpp"
+          },
+          "hashes": {
+            "md5": "e499ceb47ff0a76a492633581b8dadc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int3x3_sized.hpp"
+          },
+          "hashes": {
+            "md5": "d89a9747b236076aaa01221f0dd573b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int3x4.hpp"
+          },
+          "hashes": {
+            "md5": "6f36e8459dd40df1ee4318ee6bf69be2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int3x4_sized.hpp"
+          },
+          "hashes": {
+            "md5": "5bdd3933e7160740c9bff780fe11de45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int4x2.hpp"
+          },
+          "hashes": {
+            "md5": "173e7e43dbcc2f91385f793e2844bee9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int4x2_sized.hpp"
+          },
+          "hashes": {
+            "md5": "50f9a865b4af2d383be91aba9fed69f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int4x3.hpp"
+          },
+          "hashes": {
+            "md5": "e5f696e4d7dc0a347a8e9aff1391cc83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int4x3_sized.hpp"
+          },
+          "hashes": {
+            "md5": "125174a924f2459ed5e10913eeff3748"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int4x4.hpp"
+          },
+          "hashes": {
+            "md5": "432b7a918fb104d5d50cc802ce511de1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_int4x4_sized.hpp"
+          },
+          "hashes": {
+            "md5": "f616c878c891fb410c061870127be230"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint2x2.hpp"
+          },
+          "hashes": {
+            "md5": "6648c68a78cdd46a11972ed4d6ecae11"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint2x2_sized.hpp"
+          },
+          "hashes": {
+            "md5": "26115c8118b33caae133c3e42a8773ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint2x3.hpp"
+          },
+          "hashes": {
+            "md5": "d31cf803f63ca4e04c5a0a5794a49fdc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint2x3_sized.hpp"
+          },
+          "hashes": {
+            "md5": "67297f55c73466076407da5c65eade21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint2x4.hpp"
+          },
+          "hashes": {
+            "md5": "5703b4d6c8a1615cfe81c5c4d8df7b7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint2x4_sized.hpp"
+          },
+          "hashes": {
+            "md5": "989d463e44d8151a0008d1e813a9ae82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint3x2.hpp"
+          },
+          "hashes": {
+            "md5": "80b4d2bdd19768abde21f1ceb584aa4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint3x2_sized.hpp"
+          },
+          "hashes": {
+            "md5": "f569ab44507441782e1a2135389096ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint3x3.hpp"
+          },
+          "hashes": {
+            "md5": "7651e5ce15420c01c6f9e3922eaeb474"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint3x3_sized.hpp"
+          },
+          "hashes": {
+            "md5": "6a2595278c0b3b0ad32c0303a36ccb62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint3x4.hpp"
+          },
+          "hashes": {
+            "md5": "e769c1c5a2bb93ead4535dd14c9aeece"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint3x4_sized.hpp"
+          },
+          "hashes": {
+            "md5": "58eae0cd317df6e82601004a1725993f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint4x2.hpp"
+          },
+          "hashes": {
+            "md5": "c7b26e5e1892d22029c86df13e714986"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint4x2_sized.hpp"
+          },
+          "hashes": {
+            "md5": "3b5787fdda4df96099eb9caafc5ed9d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint4x3.hpp"
+          },
+          "hashes": {
+            "md5": "f8b2cc0761af0b2ba01f54c6b2bde878"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint4x3_sized.hpp"
+          },
+          "hashes": {
+            "md5": "b1dec9254f825e45ef1575c127a0c981"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint4x4.hpp"
+          },
+          "hashes": {
+            "md5": "f9b3889e09e4862eaca3b05054a51ebf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_uint4x4_sized.hpp"
+          },
+          "hashes": {
+            "md5": "1086fe4940f9809909e7f0d55897f180"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_projection.hpp"
+          },
+          "hashes": {
+            "md5": "edd95a8fc5397ec2fcee498d592c8fb0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/constants.hpp"
+          },
+          "hashes": {
+            "md5": "ff2ca20ef3a0846df61d4270c709315d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/constants.inl"
+          },
+          "hashes": {
+            "md5": "7724d835030a82936fceee11b595a8b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_projection.inl"
+          },
+          "hashes": {
+            "md5": "3db80edb55b08fd25d651660cb6a502e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_relational.hpp"
+          },
+          "hashes": {
+            "md5": "8330cc07a99c4e40c482b06e3f985316"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_relational.inl"
+          },
+          "hashes": {
+            "md5": "30c82a234eb28db29df68e7f813db777"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_relational.hpp"
+          },
+          "hashes": {
+            "md5": "2959cfc6937b919e9cf1f6e489732808"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_relational.inl"
+          },
+          "hashes": {
+            "md5": "09e7b3fd91b42c6d4f204be182c0a5be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_float.hpp"
+          },
+          "hashes": {
+            "md5": "dbbbdc1019716c3944f478244ecf41e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_transform.hpp"
+          },
+          "hashes": {
+            "md5": "ba03712dd9c3842d72e109850ae9f8e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/matrix_transform.inl"
+          },
+          "hashes": {
+            "md5": "fd4375e7b439e9ecf9c5f039450bd6c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_common.hpp"
+          },
+          "hashes": {
+            "md5": "419d4bdee57755064572cbbacd9d353d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_geometric.hpp"
+          },
+          "hashes": {
+            "md5": "7a9801b2f4fb9862770bd849a4613432"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_geometric.inl"
+          },
+          "hashes": {
+            "md5": "71a5b8efa04b81147cecd630cf5d462b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_common.inl"
+          },
+          "hashes": {
+            "md5": "261e30f85960369f3a7b2cdfeb19f8ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_double.hpp"
+          },
+          "hashes": {
+            "md5": "4f093bea45b89e0b3682560ee36f79c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_quat.hpp"
+          },
+          "hashes": {
+            "md5": "de5195036f4e3ab2465ebea1cccb831b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_relational.hpp"
+          },
+          "hashes": {
+            "md5": "c87f2a1c42fabb62ca32c20cdf6484ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_relational.inl"
+          },
+          "hashes": {
+            "md5": "ade4a39cc8051ba3dc1d20eaa75b5566"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/matrix_transform.hpp"
+          },
+          "hashes": {
+            "md5": "b6f63acd21bf911dda29cd6737dcbfbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/matrix_transform.inl"
+          },
+          "hashes": {
+            "md5": "6ea7580110141824bf413d5396e4853a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/type_quat.inl"
+          },
+          "hashes": {
+            "md5": "3b06aadb66613b3a662ac1315a680699"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_double_precision.hpp"
+          },
+          "hashes": {
+            "md5": "9a49f20faa6b6d46d74ecfdad6b9d64f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_float.hpp"
+          },
+          "hashes": {
+            "md5": "93df7cdd7843a12705f288ccfc8f2b5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_float_precision.hpp"
+          },
+          "hashes": {
+            "md5": "be3830d30c23028c84c2c719d4ce0b1b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_exponential.hpp"
+          },
+          "hashes": {
+            "md5": "3c7c13fdd95fc4a4b23853a0ede973bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_exponential.inl"
+          },
+          "hashes": {
+            "md5": "5729aec8ff1e35c03b33485cedc2a713"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_transform.hpp"
+          },
+          "hashes": {
+            "md5": "73d519b6a57d35f6265d7368297a8703"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_transform.inl"
+          },
+          "hashes": {
+            "md5": "06469830f6976e8404233be4b014f825"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_trigonometric.hpp"
+          },
+          "hashes": {
+            "md5": "877832534386fa59e8c14606c7b0592b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/quaternion_trigonometric.inl"
+          },
+          "hashes": {
+            "md5": "73d7ed50434b137113173316d38b6eb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_common.hpp"
+          },
+          "hashes": {
+            "md5": "c94f60e18773762c422943ff8422d0ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_common.inl"
+          },
+          "hashes": {
+            "md5": "c761e7c5f9bc959394dddefb53d4734f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_integer.hpp"
+          },
+          "hashes": {
+            "md5": "a768f716cd5644f3430d7b5965a1d339"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_integer.inl"
+          },
+          "hashes": {
+            "md5": "4c8af0983b830e7448f28eac4cf6d470"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_packing.hpp"
+          },
+          "hashes": {
+            "md5": "7beb7efaa5d2cf48d6fda7f3887a60d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_packing.inl"
+          },
+          "hashes": {
+            "md5": "d41d8cd98f00b204e9800998ecf8427e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_relational.hpp"
+          },
+          "hashes": {
+            "md5": "52c23ee80eac7bebb2d8db87ec6e89d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_relational.inl"
+          },
+          "hashes": {
+            "md5": "bf72069fc853cc7720a249cf26a6dcb7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_ulp.hpp"
+          },
+          "hashes": {
+            "md5": "ad2376f7277a80f46942e4a961acf641"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/scalar_ulp.inl"
+          },
+          "hashes": {
+            "md5": "104b6386d59971032f53235d88ffea6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_common.hpp"
+          },
+          "hashes": {
+            "md5": "7662718d67550a1a42483449991fd8a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_common.inl"
+          },
+          "hashes": {
+            "md5": "38d93d15fee1a601d523ce77bd08bd64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_integer.hpp"
+          },
+          "hashes": {
+            "md5": "d48222932322115efb9bc48769e560cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_integer.inl"
+          },
+          "hashes": {
+            "md5": "fb407357298486cedc324bf45a8f0f20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_packing.hpp"
+          },
+          "hashes": {
+            "md5": "58bf5b8e23e92075efe03be1d72537b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_packing.inl"
+          },
+          "hashes": {
+            "md5": "d41d8cd98f00b204e9800998ecf8427e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_ulp.hpp"
+          },
+          "hashes": {
+            "md5": "d6cde7cd0de756f66fbacef308d5c92b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_ulp.inl"
+          },
+          "hashes": {
+            "md5": "bcc35ba2b3df0255e6bf41bdd92c5d04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_bool1.hpp"
+          },
+          "hashes": {
+            "md5": "d5b83a791dcb75d61e4fc68cb6aa446b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_bool1_precision.hpp"
+          },
+          "hashes": {
+            "md5": "8cabd19680c59f2b9c5971dabd95ac62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_double1.hpp"
+          },
+          "hashes": {
+            "md5": "94b1644af6405fca137c6bd00c827e32"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_double1_precision.hpp"
+          },
+          "hashes": {
+            "md5": "08b9296a5305e6d37ec31bed0e45a57d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_float1.hpp"
+          },
+          "hashes": {
+            "md5": "4748d14a05d34447fd7f226f89e804b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_float1_precision.hpp"
+          },
+          "hashes": {
+            "md5": "bfdde8d7404de269095c570ede7ce6d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_int1.hpp"
+          },
+          "hashes": {
+            "md5": "e264f2c1303bcc85abc58b851407be94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_int1_sized.hpp"
+          },
+          "hashes": {
+            "md5": "535f2c310b399be08a47647becb7bba6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_uint1.hpp"
+          },
+          "hashes": {
+            "md5": "ec3384086aa3d536dd19ac2fa2ca5a4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/ext/vector_uint1_sized.hpp"
+          },
+          "hashes": {
+            "md5": "b2bcadbf579c0ba92ee99916785ddc9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/bitfield.hpp"
+          },
+          "hashes": {
+            "md5": "eb53f5562f4c1f043d59cc6ca5b449d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/type_precision.hpp"
+          },
+          "hashes": {
+            "md5": "0b788345ccfdbaa974230afe0f3e160b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/quaternion.hpp"
+          },
+          "hashes": {
+            "md5": "94cdd453da906d3eb1d310bc93bcbac4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/quaternion.inl"
+          },
+          "hashes": {
+            "md5": "856803edfbd90bf607a1cbf08b557a20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/epsilon.hpp"
+          },
+          "hashes": {
+            "md5": "1bc62b34076a67088c62710d1b4d2115"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/epsilon.inl"
+          },
+          "hashes": {
+            "md5": "a809d51b6a872e5a0ad13599e52b60f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/vec1.hpp"
+          },
+          "hashes": {
+            "md5": "359036e5d69a2754b5140c24ac7939be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/type_precision.inl"
+          },
+          "hashes": {
+            "md5": "b66a3b50c9460d1d96ccdaca13100a67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/bitfield.inl"
+          },
+          "hashes": {
+            "md5": "e1a003d4b29b196dc5a79773ebdd8284"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/simd/integer.h"
+          },
+          "hashes": {
+            "md5": "f4abd95733c59ed5bc356fe58db4e3d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/color_space.hpp"
+          },
+          "hashes": {
+            "md5": "6f678a1f2edde103bff465677c171a43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/color_space.inl"
+          },
+          "hashes": {
+            "md5": "8ea04584d3dc2610338708272bc4e91d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/integer.hpp"
+          },
+          "hashes": {
+            "md5": "a3b37b6235a644e8f2233ea07bf2d9f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/integer.inl"
+          },
+          "hashes": {
+            "md5": "655517a74a1ec9c1325d4331a143d150"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/matrix_access.hpp"
+          },
+          "hashes": {
+            "md5": "ab939bc5b113c9a5fb7b5f5c8d58f242"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/matrix_access.inl"
+          },
+          "hashes": {
+            "md5": "a6bce314db4b7eaa70834024f01f691a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/matrix_integer.hpp"
+          },
+          "hashes": {
+            "md5": "3602bb6607d4eb392935e14e33a93745"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/matrix_inverse.hpp"
+          },
+          "hashes": {
+            "md5": "006a11062aa5b7afb3784c395ae9ac22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/matrix_inverse.inl"
+          },
+          "hashes": {
+            "md5": "cee92ac22fc1801b667b8d529d5a9ba3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/noise.hpp"
+          },
+          "hashes": {
+            "md5": "af829e3a32995fdc9a53957c633e9190"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/detail/_noise.hpp"
+          },
+          "hashes": {
+            "md5": "1f8a67b6be5b4c81c31a21294bba7060"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/noise.inl"
+          },
+          "hashes": {
+            "md5": "9f862074d2d2556076f405524618ed4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/packing.hpp"
+          },
+          "hashes": {
+            "md5": "bd51fb0a703c3ca9aceb9594960c7beb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/packing.inl"
+          },
+          "hashes": {
+            "md5": "4b5472a3b11e31b65332f4c8639afd18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/random.hpp"
+          },
+          "hashes": {
+            "md5": "19f1fb5ce9a3dee6326dea503f9b513c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/random.inl"
+          },
+          "hashes": {
+            "md5": "a66447e7aed66d4da2aa22b58775c6e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/reciprocal.hpp"
+          },
+          "hashes": {
+            "md5": "f95f354d4a7dbadc984ed96b826f9349"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/reciprocal.inl"
+          },
+          "hashes": {
+            "md5": "53d16fdbf126e75b37f17a25d9298884"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/round.hpp"
+          },
+          "hashes": {
+            "md5": "9e9f1850bd83691587694159aefe09b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/round.inl"
+          },
+          "hashes": {
+            "md5": "1e4fe6337b77434094577f6e7e24190b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/type_ptr.hpp"
+          },
+          "hashes": {
+            "md5": "2d03acc1515589e846798ea377e33cce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/type_ptr.inl"
+          },
+          "hashes": {
+            "md5": "d83542af89ff4c9e73d4e9132661cfc5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/ulp.hpp"
+          },
+          "hashes": {
+            "md5": "4eccbdfefb0a91f6d117b58b5f7c8a72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/packages/glm.0.9.9.800/build/native/include/glm/gtc/ulp.inl"
+          },
+          "hashes": {
+            "md5": "02f8c00f9a0338181ef18e46b5bf8481"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/idraw.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "310bc3534403ef15214397f3ecfee57a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/DragObject.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d2a8df508782a15c53b66842ef384edb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/MainMenuControl.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "108db9a483134e46c2297a0c7fe52e91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/ControlInput.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9e9ccb7e3d0619d42bd7d76fbc273fd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/kFont.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "12ebcc6326bb70c37052dad7a11f395a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/kFont.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2246d51d2a5660c8256a4e5e480ceec0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/ui.h"
+          },
+          "hashes": {
+            "md5": "734ba99ed91c4d95585d43b06a73d9d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/uicontrol.h"
+          },
+          "hashes": {
+            "md5": "e44ce37ff5fad378cdead7a115e2d077"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/kEffect.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "928e1c284e94e20130752c47f4a452dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/ImageControl.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2be2b7abc7d54a9bb51ddf8b4a7c9f3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/imagecontrol.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6c698e4f3cb0ac407139ee61a301dead"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/IDraw.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4ffa2a96dbd660067fb7456d9c8a1cf1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/fximagedraw.h"
+          },
+          "hashes": {
+            "md5": "4bdd193eb883a1f5f249c168e69c031c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/Mesh3D.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "60cf442b9a02015e5cf9cd19d64dcd28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/NodeBase.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0af1101268669f2c9857b5156c2ef257"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/gameworld.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e2f28ba0697d73ad7f8bdc2bff5dd586"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/gameworld.h"
+          },
+          "hashes": {
+            "md5": "55ffc3ed7db4185569669a1219cac424"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/worldentity.h"
+          },
+          "hashes": {
+            "md5": "c10b7f5df304f0c989b71fcf92e39872"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/datatypes.h"
+          },
+          "hashes": {
+            "md5": "fa93da10a5c2dbfbe07a45d9f818a2f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/nodeentity.h"
+          },
+          "hashes": {
+            "md5": "c88c78024b3bcdfed28bbddfefe78c43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/nodecam.h"
+          },
+          "hashes": {
+            "md5": "b6ea4bdd6c125c0ac9c60d968e949007"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/nodelight.h"
+          },
+          "hashes": {
+            "md5": "4069640358ec06df81201a69002cec49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/framebuffercube.h"
+          },
+          "hashes": {
+            "md5": "d9e5ecc30bb272ed12f571d53bfc3e51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/texturecube.h"
+          },
+          "hashes": {
+            "md5": "792580129b1c4029a5033f2f30401100"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/virtualwarapp.h"
+          },
+          "hashes": {
+            "md5": "5da484a013e49051ea7e694da18e3afc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/fxtextdraw.h"
+          },
+          "hashes": {
+            "md5": "0501ecd7d671255980389176361dfead"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/appstate.h"
+          },
+          "hashes": {
+            "md5": "68ddb94b53fadc137c97e98f81c8f238"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/worldeffects.h"
+          },
+          "hashes": {
+            "md5": "55e7f5d44c85eb79328ee611b6a3af04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/fxmesh3d.h"
+          },
+          "hashes": {
+            "md5": "601e89de3d5c6e758872dcfde06f332e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/fxmeshdepth.h"
+          },
+          "hashes": {
+            "md5": "6de0fd126ec90239450f8734f40776cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/fxmeshflat.h"
+          },
+          "hashes": {
+            "md5": "24ee4ac728acaf0570fe9588bf30a167"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/fxmeshlines.h"
+          },
+          "hashes": {
+            "md5": "dfbe8696187f0cff536fb438c06c3fcf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/FXTextDraw.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "7f3ab7f958f0a26f0086f559a743c109"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/FXMeshLines.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c2f1a3b4796854847cbcf19302489c13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/FXMeshFlat.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "14b1f8b50f69e0bb75292229991d44b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/FXMeshDepth.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4d356bcafd1379d665f1fe1c13b3509d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/FXMesh3D.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "eb3416ddfeeedd6643979611b9a3102d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/FXImageDraw.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4471101fd10993d0decbc490f8ba216c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/framebuffercube.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "644d650df3aace711b9303ad6776c5c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/engineglobal.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6d432d6951b533855dd90bb6821b5822"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/engineglobal.h"
+          },
+          "hashes": {
+            "md5": "948e0725b6bcd09a4672b734a3ca8546"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/StateTest1.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f89df261e56fb77c1189f6b1a5f99d56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/StateTest2.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "48fe761eba27b01b796983d6b054148a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/StateFpsTest.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "67751d0a9a1b4c22623324b6df25818c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/editormainstate.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "27990f29665d32490b4c8b6ffce44d0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/editormainstate.h"
+          },
+          "hashes": {
+            "md5": "6c9a478466874ebb0aa613690234af49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/buttoncontrol.h"
+          },
+          "hashes": {
+            "md5": "e1cf62013d9ad2a660bd2203d784be88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/boolcontrol.h"
+          },
+          "hashes": {
+            "md5": "d7518a6fe74bfdda55fb76557129c1a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/uitheme.h"
+          },
+          "hashes": {
+            "md5": "59bf8e9aca353dc89da022f78f34a827"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/uitheme_neon.h"
+          },
+          "hashes": {
+            "md5": "686ec1d7f0782fc7587e6ef514ba99b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/dragobject.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b5cf2d447ce95ea577351ecad365a781"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/controlinput.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8062ea333feb4dad9cbb565cd829ff7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/buttoncontrol.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "3c36fcf7b72bd2b9afb6b96c35f1e316"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/boolcontrol.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "155c93d9610325256099d083bd24c790"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/appstate.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "456fac94955ec1eec532fae9b5ee7ff8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/uicontrol.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "7d5770bad35a5b863fedd50aea168a41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/UI.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "891adc8335db27f60236f490606931d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/TMaths.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4500e9938fb390d725559a87ae51cbc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/tmaths.h"
+          },
+          "hashes": {
+            "md5": "71839a97d29abd319c57f884b581d1df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/texturecube.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "503682b4e627de21deaa7a835b9516e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/stb_image.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "1091ec406c14676a89b9f772be5bc239"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/Texture2D.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "639dad6cfc284dc249057a9fc87b08e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Project/VirtualWar/VirtualWar/UserInput.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8ed361817d0013d36a0a5f184c755cc0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/statetest2.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "0aa657dbc45721a0d5f4b0ba869ad162"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/modelimport.h"
+          },
+          "hashes": {
+            "md5": "9d5bbee1c637abab6f90108fa137ca55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/statetest1.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "624dbf9b2569e35adf99158a4c5e7678"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/project/virtualwar/virtualwar/statefpstest.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "fac4f10f0587daad3134efec4eeba3af"
+          }
+        }
+      ]
+    }
+  ]
+}

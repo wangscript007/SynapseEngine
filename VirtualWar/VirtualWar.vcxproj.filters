@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{5697bfc4-3793-4e0a-83b2-b12295985e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{911f26ce-38a2-4754-9fe4-7cc7ccfb70fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Font">
+      <UniqueIdentifier>{c5b253e3-ec64-4247-9e3a-e4f53fd7480c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Effect">
+      <UniqueIdentifier>{b9ad0c7a-20e8-4c4d-8592-7646cffd65f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Draw">
+      <UniqueIdentifier>{06a890a3-e182-45c5-9784-298bf140ac6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\App">
+      <UniqueIdentifier>{0395218d-a1a4-4c75-a925-2a424e55bcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States">
+      <UniqueIdentifier>{e5d1ee57-6710-4bea-8203-1a24822b68a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture">
+      <UniqueIdentifier>{8bd534e1-b05c-4100-bf74-c906d7e91f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\UI">
+      <UniqueIdentifier>{5ec4e282-d440-4d94-81a0-7c2c1ac91b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World">
+      <UniqueIdentifier>{f21db047-f027-4001-b706-89814e74dac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Test">
+      <UniqueIdentifier>{8c14cd93-eb00-476b-b8bd-c5a4d32a6fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Mesh">
+      <UniqueIdentifier>{012705b0-cf50-45d6-b88f-ac80fccb81a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Import">
+      <UniqueIdentifier>{f28dfb64-cd33-4f68-bdaa-8c3490620ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Material">
+      <UniqueIdentifier>{e4cef7e8-1734-41b7-8af3-1f4c8c447c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Node">
+      <UniqueIdentifier>{a5e27dfd-aff4-4c9b-bcaa-58e19d00313c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Framebuffer">
+      <UniqueIdentifier>{26106c66-1c7d-4170-9abe-24aee326e7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Util">
+      <UniqueIdentifier>{201cbc5d-6bb5-470a-9e7e-9b983de72227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graph">
+      <UniqueIdentifier>{410f3d1b-9966-4fdc-ab49-501438756323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{a168a0af-25fa-4d2f-9acc-f5c2f4fcfbcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics">
+      <UniqueIdentifier>{536870ec-62cb-4ead-bf38-131d04fdc46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States\Engine Tests">
+      <UniqueIdentifier>{dc0e0631-6655-43e5-b5cb-03e57691658c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States\Game States">
+      <UniqueIdentifier>{e784e53a-ed36-48a0-890c-971b51536006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{9d031325-3a6f-44ac-8829-cd622e52072c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Renderer">
+      <UniqueIdentifier>{9a280d4a-dc1e-4f06-8a1b-e866101398ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PostProcess">
+      <UniqueIdentifier>{cdab04ce-ad27-4d53-91f5-6f01f062d1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Actor">
+      <UniqueIdentifier>{6031705a-3c96-4b82-9188-262f49e20c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CL">
+      <UniqueIdentifier>{cc225057-138e-4375-aad8-a52a4c114ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Culling">
+      <UniqueIdentifier>{c4ba8725-70c0-4e60-acf0-66a36b7babc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Octree">
+      <UniqueIdentifier>{eee1ea4a-7bcb-4260-a08e-7bbca5cc794d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\ParticleFX">
+      <UniqueIdentifier>{e84a1494-4e2a-4ff6-b97c-13eb02000503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\ParticleFX\Type">
+      <UniqueIdentifier>{b2703e33-c355-4935-9e03-5de3bda11a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\effe">
+      <UniqueIdentifier>{6e4adefb-da70-4667-891d-ef981afe1c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Player">
+      <UniqueIdentifier>{f31c6350-8047-4a18-ab00-ab74e4a597a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VirtualWar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWarApp.cpp">
+      <Filter>Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="IDraw.cpp">
+      <Filter>Engine\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="kEffect.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FXImageDraw.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGlobal.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FXTextDraw.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControl.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEvent.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEventClick.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UITheme.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UITheme_Neon.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AppState.cpp">
+      <Filter>Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMainState.cpp">
+      <Filter>Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DragObject.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kFont.cpp">
+      <Filter>Engine\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolControl.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonControl.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageControl.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEntity.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh3D.cpp">
+      <Filter>Engine\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLines.cpp">
+      <Filter>Engine\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelImport.cpp">
+      <Filter>Engine\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Engine\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeBase.cpp">
+      <Filter>Engine\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeCam.cpp">
+      <Filter>Engine\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeEntity.cpp">
+      <Filter>Engine\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeLight.cpp">
+      <Filter>Engine\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferCube.cpp">
+      <Filter>Engine\Framebuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="TMaths.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCube.cpp">
+      <Filter>Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Engine\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMesh3D.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshDepth.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshFlat.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshLines.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEffects.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInput.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="VFile.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="VString.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PBBox.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBody.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldDynamicEntity.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PBTriangles.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTest2.cpp">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTest1.cpp">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="StatePhysicsTest1.cpp">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="StateIntroLogos.cpp">
+      <Filter>Game\States\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundChannel.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSource.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="PBSphere.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PBConvex.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="StateRenderTest1.cpp">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>Game\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="kFrameBuffer.cpp">
+      <Filter>Engine\Framebuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ppBloom.cpp">
+      <Filter>Engine\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="kPostProcess.cpp">
+      <Filter>Engine\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="ppSSR.cpp">
+      <Filter>Engine\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshPosMap.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshNormMap.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshExtra.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="StateAnimationTest1.cpp">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshAnim.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalModelSerializer.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalModel.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CLMain.cpp">
+      <Filter>Engine\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="CLTransformer.cpp">
+      <Filter>Engine\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldChunk.cpp">
+      <Filter>Game\World\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Game\World\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="StateOctreeTest1.cpp">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Bounds.cpp">
+      <Filter>Game\World\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Game\World\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleQuad.cpp">
+      <Filter>Game\World\ParticleFX\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleBase.cpp">
+      <Filter>Game\World\ParticleFX\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="StateParticleTest1.cpp">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FXParticleSoft.cpp">
+      <Filter>Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffeManager.cpp">
+      <Filter>Game\World\effe</Filter>
+    </ClCompile>
+    <ClCompile Include="StateFPSTest1.cpp">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayer.cpp">
+      <Filter>Game\World\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFirstPerson.cpp">
+      <Filter>Game\World\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PBCapsule.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldActor.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpConverter.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationChannel.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorSkeleton.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorNode.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorBone.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorAnimation.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimKeys.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneWeight.cpp">
+      <Filter>Game\World\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualWarApp.h">
+      <Filter>Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="GameIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDraw.h">
+      <Filter>Engine\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="kEffect.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FXImageDraw.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FXTextDraw.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControl.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEvent.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEventClick.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UITheme.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UITheme_Neon.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AppState.h">
+      <Filter>Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMainState.h">
+      <Filter>Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="DragObject.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kFont.h">
+      <Filter>Engine\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="BoolControl.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonControl.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageControl.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEntity.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh3D.h">
+      <Filter>Engine\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLines.h">
+      <Filter>Engine\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelImport.h">
+      <Filter>Engine\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>Engine\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Engine\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeBase.h">
+      <Filter>Engine\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeCam.h">
+      <Filter>Engine\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeEntity.h">
+      <Filter>Engine\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeLight.h">
+      <Filter>Engine\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferCube.h">
+      <Filter>Engine\Framebuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="TMaths.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCube.h">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Engine\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMesh3D.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshDepth.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshFlat.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshLines.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEffects.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInput.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="VString.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="VFile.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBody.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PBBox.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldDynamicEntity.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PBTriangles.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTest2.h">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTest1.h">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="StatePhysicsTest1.h">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="StateIntroLogos.h">
+      <Filter>Game\States\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundChannel.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSource.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="PBSphere.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PBConvex.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="StateRenderTest1.h">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>Game\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="kFrameBuffer.h">
+      <Filter>Engine\Framebuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ppBloom.h">
+      <Filter>Engine\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="kPostProcess.h">
+      <Filter>Engine\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="ppSSR.h">
+      <Filter>Engine\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshPosMap.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshNormMap.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshExtra.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="StateAnimationTest1.h">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldActor.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshAnim.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Engine\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalModelSerializer.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalModel.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpConverter.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CLMain.h">
+      <Filter>Engine\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="CLTransformer.h">
+      <Filter>Engine\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Engine\Culling</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldChunk.h">
+      <Filter>Game\World\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Game\World\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Bounds.h">
+      <Filter>Game\World\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="StateOctreeTest1.h">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Game\World\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleQuad.h">
+      <Filter>Game\World\ParticleFX\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleBase.h">
+      <Filter>Game\World\ParticleFX\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="StateParticleTest1.h">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="FXParticleSoft.h">
+      <Filter>Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffeManager.h">
+      <Filter>Game\World\effe</Filter>
+    </ClInclude>
+    <ClInclude Include="StateFPSTest1.h">
+      <Filter>Game\States\Engine Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayer.h">
+      <Filter>Game\World\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFirstPerson.h">
+      <Filter>Game\World\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PBCapsule.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimKeys.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationChannel.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorSkeleton.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorNode.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorBone.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorAnimation.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneWeight.h">
+      <Filter>Game\World\Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

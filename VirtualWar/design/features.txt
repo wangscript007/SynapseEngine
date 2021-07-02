@@ -1,0 +1,9 @@
+ - Screen space reflections.
+
+- Use kinnect for additional gameplay possiblities such as pointing and shooting.
+
+- An additional layer of lighter lighting near the end of the spectrum
+
+- AI Components including Neural networks.
+
+- Node based graph editor for gameplay/other
