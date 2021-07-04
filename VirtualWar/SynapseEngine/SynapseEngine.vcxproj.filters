@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{8eababf0-56ff-4c3a-a676-e7a560f04e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{a7ca968d-0f68-441a-9d79-039bca3ce4fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorAnimation.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorBone.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorNode.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorSkeleton.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationChannel.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimChannel.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimEvaluator.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimKeys.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AppState.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpConverter.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneWeight.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BoolControl.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Bounds.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonControl.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CLMain.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CLTransformer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlInput.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DragObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EffeManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineGlobal.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferCube.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXImageDraw.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMesh3D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshAnim.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshDepth.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshExtra.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshFlat.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshLines.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshNormMap.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXMeshPosMap.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXParticleSoft.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FXTextDraw.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameIncludes.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IDraw.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageControl.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="kEffect.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="kFont.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="kFrameBuffer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="kPostProcess.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuControl.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh3D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLines.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelImport.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetClient.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConnection.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetServer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeBase.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeCam.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeEntity.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeLight.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleBase.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleQuad.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PBBox.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PBCapsule.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PBConvex.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PBSphere.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PBTriangles.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBody.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFirstPerson.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ppBloom.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ppSSR.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalModel.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalModelSerializer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundChannel.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSource.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCube.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TMaths.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControl.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEvent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEventClick.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UITheme.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UITheme_Neon.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInput.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="VFile.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWarApp.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="VString.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldActor.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldChunk.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldDynamicEntity.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEffects.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEntity.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SynapseEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorAnimation.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorBone.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorNode.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorSkeleton.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationChannel.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimChannel.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimEvaluator.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimKeys.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AppState.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpConverter.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneWeight.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolControl.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Bounds.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonControl.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CLMain.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CLTransformer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlInput.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DragObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EffeManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineGlobal.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferCube.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXImageDraw.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMesh3D.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshAnim.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshDepth.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshExtra.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshFlat.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshLines.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshNormMap.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXMeshPosMap.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXParticleSoft.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FXTextDraw.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IDraw.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageControl.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="kEffect.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="kFont.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="kFrameBuffer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="kPostProcess.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuControl.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh3D.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLines.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelImport.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClient.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetConnection.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetServer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeBase.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeCam.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeEntity.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeLight.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleBase.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleQuad.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PBBox.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PBCapsule.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PBConvex.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PBSphere.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PBTriangles.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBody.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFirstPerson.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ppBloom.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ppSSR.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalModel.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalModelSerializer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundChannel.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSource.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCube.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TMaths.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControl.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEvent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEventClick.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UITheme.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UITheme_Neon.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInput.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="VFile.cpp">
+      <Filter>Engine</Filter>
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWarApp.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldActor.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldChunk.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldDynamicEntity.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEffects.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEntity.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="VString.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
