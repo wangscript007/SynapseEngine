@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "UITheme_Neon.h"
 #include "Texture2D.h"
 #include "UI.h"

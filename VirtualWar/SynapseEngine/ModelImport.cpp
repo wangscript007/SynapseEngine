@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "ModelImport.h"
 #include <assimp/cimport.h>
 #include <assimp/scene.h>

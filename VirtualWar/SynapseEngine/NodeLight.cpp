@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "NodeLight.h"
 #include "NodeCam.h"
 #include "SceneGraph.h"

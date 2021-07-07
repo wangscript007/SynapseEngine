@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "MainMenuControl.h"
 #include "UI.h"
 #include "UITheme.h"

@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "Texture2D.h"
 #include <stdio.h>
 #define STB_IMAGE_IMPLEMENTATION

@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "NodeBase.h"
 #include "TMaths.h"
 

@@ -101,7 +101,8 @@ void StateNetworkTest1::InitState() {
 	p1->SetCamOffset(0, 20, 0);
 	p1->SetPosition(0, 40, 0);
 
-	s1 = new NetServer(1234);
+	//s1 = new NetServer(1234);
+	InitNetworking();
 	while(true){}
 
 }

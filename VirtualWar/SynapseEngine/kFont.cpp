@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "kFont.h"
 #define _CRT_SECURE_NO_DEPRECATE
 #pragma warning (disable : 4996)

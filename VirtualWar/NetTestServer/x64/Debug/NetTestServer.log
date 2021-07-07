@@ -1,0 +1,3 @@
+﻿  NetTestServer.cpp
+C:\Project\VirtualWar\Synet\SyHost.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  NetTestServer.vcxproj -> C:\project\VirtualWar\VirtualWar\x64\Debug\NetTestServer.exe

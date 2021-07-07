@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "FrameBufferCube.h"
 
 FrameBufferCube::FrameBufferCube(int w, int h) {

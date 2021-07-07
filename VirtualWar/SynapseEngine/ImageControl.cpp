@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "ImageControl.h"
 #include "Texture2D.h"
 #include "UI.h"

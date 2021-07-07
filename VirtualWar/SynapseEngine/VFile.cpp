@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "VFile.h"
 #include <filesystem>
 VFile::VFile(const char* path, FileMode mode) {

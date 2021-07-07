@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "ButtonControl.h"
 #include "UI.h"
 #include "Texture2D.h"

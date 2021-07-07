@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "NodeEntity.h"
 
 NodeEntity::NodeEntity() {

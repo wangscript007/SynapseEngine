@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "NodeCam.h"
 #include <glm/ext.hpp>
 #include "TMaths.h"

@@ -1,0 +1,717 @@
+﻿  ActorAnimation.cpp
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ActorBone.cpp
+  ActorNode.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  ActorSkeleton.cpp
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  AnimationChannel.cpp
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Animator.cpp
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(86,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(86,9): message : consider using '%zd' in the format string
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(104,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(107,21): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(136,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(154,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(244,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(251,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Project\VirtualWar\SynapseEngine\Animator.cpp(251,10): message : consider using '%zd' in the format string
+  AnimChannel.cpp
+  AnimEvaluator.cpp
+C:\Project\VirtualWar\SynapseEngine\AnimEvaluator.cpp(6,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimEvaluator.cpp(11,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\AnimEvaluator.cpp(19,21): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\AnimEvaluator.cpp(27,21): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\AnimEvaluator.cpp(36,21): warning C4018: '<': signed/unsigned mismatch
+  AnimKeys.cpp
+  AppState.cpp
+  AssimpConverter.cpp
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AssimpConverter.cpp(56,48): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AssimpConverter.cpp(113,22): warning C4018: '<': signed/unsigned mismatch
+  Bone.cpp
+  BoneWeight.cpp
+  BoolControl.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  Bounds.cpp
+  ButtonControl.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  CLMain.cpp
+  CLTransformer.cpp
+  ControlInput.cpp
+  DragObject.cpp
+  Generating Code...
+  Compiling...
+  EffeManager.cpp
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  EngineGlobal.cpp
+  FrameBufferCube.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  FXImageDraw.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  FXMesh3D.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FXMeshAnim.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FXMeshDepth.cpp
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FXMeshExtra.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FXMeshFlat.cpp
+  FXMeshLines.cpp
+  FXMeshNormMap.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FXMeshPosMap.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FXParticleSoft.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FXTextDraw.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  GamePlayer.cpp
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GameRenderer.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\GameWorld.h(23,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  GameWorld.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\GameWorld.h(23,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  IDraw.cpp
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(92,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(257,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(481,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(709,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(994,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(995,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(996,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(997,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(999,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(1000,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(1001,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\IDraw.cpp(1002,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ImageControl.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  kEffect.cpp
+C:\Project\VirtualWar\SynapseEngine\kEffect.cpp(55,6): warning C4101: 'logLength': unreferenced local variable
+  Generating Code...
+  Compiling...
+  kFont.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(108,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(114,40): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(122,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(135,116): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(135,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(135,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(157,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(172,116): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(172,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\kFont.cpp(172,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  kFrameBuffer.cpp
+  kPostProcess.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  MainMenuControl.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  Material.cpp
+  Mesh3D.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.cpp(56,75): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.cpp(67,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.cpp(120,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  MeshLines.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\MeshLines.h(83,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ModelImport.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\ModelImport.cpp(58,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\ModelImport.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\ModelImport.cpp(133,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\ModelImport.cpp(348,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\ModelImport.cpp(363,21): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\ModelImport.cpp(404,21): warning C4018: '<': signed/unsigned mismatch
+  NetClient.cpp
+  NetConnection.cpp
+  NetServer.cpp
+  NodeBase.cpp
+C:\Project\VirtualWar\SynapseEngine\NodeBase.cpp(38,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  NodeCam.cpp
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  NodeEntity.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeEntity.cpp(18,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  NodeLight.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\MeshLines.h(83,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SceneGraph.h(51,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\GameWorld.h(23,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeLight.cpp(43,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Octree.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\Octree.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\GameWorld.h(23,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  ParticleBase.cpp
+  ParticleQuad.cpp
+  ParticleSystem.cpp
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\ParticleSystem.cpp(16,25): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Project\VirtualWar\SynapseEngine\ParticleSystem.cpp(179,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\ParticleSystem.cpp(271,69): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  PBBox.cpp
+  Generating Code...
+  Compiling...
+  PBCapsule.cpp
+  PBConvex.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  PBSphere.cpp
+  PBTriangles.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Physics.cpp
+  PhysicsBody.cpp
+  PlayerFirstPerson.cpp
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ppBloom.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\ppBloom.cpp(28,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\ppBloom.cpp(29,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  ppSSR.cpp
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\ppSSR.cpp(33,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\ppSSR.cpp(34,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  SceneGraph.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\MeshLines.h(83,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SceneGraph.h(51,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  SkeletalModel.cpp
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  SkeletalModelSerializer.cpp
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModelSerializer.cpp(57,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModelSerializer.cpp(157,61): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModelSerializer.cpp(187,80): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModelSerializer.cpp(81,1): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModelSerializer.cpp(197): message : see reference to function template instantiation 'void SA::WriteKeys<glm::vec3>(unsigned int &,char *,const std::vector<SA::sNodeAnimationKey<glm::vec3>,std::allocator<SA::sNodeAnimationKey<glm::vec3>>> &)' being compiled
+  SoundChannel.cpp
+  SoundEngine.cpp
+  SoundSource.cpp
+  SynapseEngine.cpp
+  Texture2D.cpp
+C:\Project\VirtualWar\SynapseEngine\Texture2D.cpp(141,10): warning C4101: 'ih': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\Texture2D.cpp(141,6): warning C4101: 'iw': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\Texture2D.cpp(141,14): warning C4101: 'bpp': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\Texture2D.cpp(241,10): warning C4101: 'ih': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\Texture2D.cpp(241,6): warning C4101: 'iw': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\Texture2D.cpp(241,14): warning C4101: 'bpp': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\Texture2D.cpp(251,14): warning C4101: 'npath': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\Texture2D.cpp(307,8): warning C4101: 'aniso': unreferenced local variable
+  TextureCube.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  TMaths.cpp
+C:\Project\VirtualWar\SynapseEngine\TMaths.cpp(134,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  UI.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  Generating Code...
+  Compiling...
+  UIControl.cpp
+C:\Project\VirtualWar\SynapseEngine\UIControl.cpp(50,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  UIEvent.cpp
+  UIEventClick.cpp
+  UITheme.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  UITheme_Neon.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+  UserInput.cpp
+  VFile.cpp
+  VirtualWarApp.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\VirtualWarApp.cpp(53,21): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\VirtualWarApp.cpp(53,15): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\VirtualWarApp.cpp(55,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\VirtualWarApp.cpp(55,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  VString.cpp
+  WorldActor.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(94,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(106,21): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(128,21): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(163,21): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(191,22): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(220,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(237,21): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(253,17): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(262,22): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(270,22): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(547,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(554,29): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(566,20): warning C4018: '<': signed/unsigned mismatch
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(939,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(939,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\WorldActor.cpp(941,14): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  WorldChunk.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\SkeletalModel.h(23,56): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(45,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(47,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(78,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\AnimationChannel.h(80,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\GameWorld.h(23,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(326,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(328,23): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(329,23): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(340,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(343,23): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(391,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(393,23): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(575,27): warning C4101: 'cen': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(575,22): warning C4101: 'ext': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(619,35): warning C4101: 'col': unreferenced local variable
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(694,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(707,27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(716,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\WorldChunk.cpp(736,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  WorldDynamicEntity.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\WorldDynamicEntity.cpp(243,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Project\VirtualWar\SynapseEngine\WorldDynamicEntity.cpp(243,9): message : consider using '%zd' in the format string
+  WorldEffects.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  WorldEntity.cpp
+C:\Project\VirtualWar\SynapseEngine\Mesh3D.h(143,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Project\VirtualWar\SynapseEngine\NodeCam.h(31,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Project\VirtualWar\SynapseEngine\WorldEntity.cpp(404,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Project\VirtualWar\SynapseEngine\WorldEntity.cpp(404,9): message : consider using '%zd' in the format string
+C:\Project\VirtualWar\SynapseEngine\WorldEntity.cpp(456,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+PhysX_64.lib(PhysX_64.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual void __cdecl physx::shdfnd::Foundation::setReportAllocationNames(bool)" (__imp_?setReportAllocationNames@Foundation@shdfnd@physx@@UEAAX_N@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: virtual void __cdecl physx::shdfnd::Foundation::setReportAllocationNames(bool)" (?setReportAllocationNames@Foundation@shdfnd@physx@@UEAAX_N@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual void __cdecl physx::shdfnd::Foundation::setErrorLevel(enum physx::PxErrorCode::Enum)" (__imp_?setErrorLevel@Foundation@shdfnd@physx@@UEAAXW4Enum@PxErrorCode@3@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: virtual void __cdecl physx::shdfnd::Foundation::setErrorLevel(enum physx::PxErrorCode::Enum)" (?setErrorLevel@Foundation@shdfnd@physx@@UEAAXW4Enum@PxErrorCode@3@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::MutexT<class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getTempAllocMutex(void)" (__imp_?getTempAllocMutex@Foundation@shdfnd@physx@@QEAAAEAV?$MutexT@VAllocator@shdfnd@physx@@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::shdfnd::MutexT<class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getTempAllocMutex(void)" (?getTempAllocMutex@Foundation@shdfnd@physx@@QEAAAEAV?$MutexT@VAllocator@shdfnd@physx@@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::Array<union physx::shdfnd::TempAllocatorChunk *,class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getTempAllocFreeTable(void)" (__imp_?getTempAllocFreeTable@Foundation@shdfnd@physx@@QEAAAEAV?$Array@PEATTempAllocatorChunk@shdfnd@physx@@VAllocator@23@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::shdfnd::Array<union physx::shdfnd::TempAllocatorChunk *,class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getTempAllocFreeTable(void)" (?getTempAllocFreeTable@Foundation@shdfnd@physx@@QEAAAEAV?$Array@PEATTempAllocatorChunk@shdfnd@physx@@VAllocator@23@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual bool __cdecl physx::shdfnd::Foundation::getReportAllocationNames(void)const " (__imp_?getReportAllocationNames@Foundation@shdfnd@physx@@UEBA_NXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: virtual bool __cdecl physx::shdfnd::Foundation::getReportAllocationNames(void)const " (?getReportAllocationNames@Foundation@shdfnd@physx@@UEBA_NXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::MutexT<class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getNamedAllocMutex(void)" (__imp_?getNamedAllocMutex@Foundation@shdfnd@physx@@QEAAAEAV?$MutexT@VAllocator@shdfnd@physx@@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::shdfnd::MutexT<class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getNamedAllocMutex(void)" (?getNamedAllocMutex@Foundation@shdfnd@physx@@QEAAAEAV?$MutexT@VAllocator@shdfnd@physx@@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::HashMap<class physx::shdfnd::NamedAllocator const *,char const *,struct physx::shdfnd::Hash<class physx::shdfnd::NamedAllocator const *>,class physx::shdfnd::NonTrackingAllocator> & __cdecl physx::shdfnd::Foundation::getNamedAllocMap(void)" (__imp_?getNamedAllocMap@Foundation@shdfnd@physx@@QEAAAEAV?$HashMap@PEBVNamedAllocator@shdfnd@physx@@PEBDU?$Hash@PEBVNamedAllocator@shdfnd@physx@@@23@VNonTrackingAllocator@23@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::shdfnd::HashMap<class physx::shdfnd::NamedAllocator const *,char const *,struct physx::shdfnd::Hash<class physx::shdfnd::NamedAllocator const *>,class physx::shdfnd::NonTrackingAllocator> & __cdecl physx::shdfnd::Foundation::getNamedAllocMap(void)" (?getNamedAllocMap@Foundation@shdfnd@physx@@QEAAAEAV?$HashMap@PEBVNamedAllocator@shdfnd@physx@@PEBDU?$Hash@PEBVNamedAllocator@shdfnd@physx@@@23@VNonTrackingAllocator@23@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxErrorCallback & __cdecl physx::shdfnd::Foundation::getInternalErrorCallback(void)" (__imp_?getInternalErrorCallback@Foundation@shdfnd@physx@@QEAAAEAVPxErrorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::PxErrorCallback & __cdecl physx::shdfnd::Foundation::getInternalErrorCallback(void)" (?getInternalErrorCallback@Foundation@shdfnd@physx@@QEAAAEAVPxErrorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual enum physx::PxErrorCode::Enum __cdecl physx::shdfnd::Foundation::getErrorLevel(void)const " (__imp_?getErrorLevel@Foundation@shdfnd@physx@@UEBA?AW4Enum@PxErrorCode@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: virtual enum physx::PxErrorCode::Enum __cdecl physx::shdfnd::Foundation::getErrorLevel(void)const " (?getErrorLevel@Foundation@shdfnd@physx@@UEBA?AW4Enum@PxErrorCode@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual class physx::PxErrorCallback & __cdecl physx::shdfnd::Foundation::getErrorCallback(void)" (__imp_?getErrorCallback@Foundation@shdfnd@physx@@UEAAAEAVPxErrorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: virtual class physx::PxErrorCallback & __cdecl physx::shdfnd::Foundation::getErrorCallback(void)" (?getErrorCallback@Foundation@shdfnd@physx@@UEAAAEAVPxErrorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual class physx::PxAllocatorCallback & __cdecl physx::shdfnd::Foundation::getAllocatorCallback(void)" (__imp_?getAllocatorCallback@Foundation@shdfnd@physx@@UEAAAEAVPxAllocatorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: virtual class physx::PxAllocatorCallback & __cdecl physx::shdfnd::Foundation::getAllocatorCallback(void)" (?getAllocatorCallback@Foundation@shdfnd@physx@@UEAAAEAVPxAllocatorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxAllocatorCallback & __cdecl physx::shdfnd::Foundation::getAllocator(void)" (__imp_?getAllocator@Foundation@shdfnd@physx@@QEAAAEAVPxAllocatorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::PxAllocatorCallback & __cdecl physx::shdfnd::Foundation::getAllocator(void)" (?getAllocator@Foundation@shdfnd@physx@@QEAAAEAVPxAllocatorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::shdfnd::NamedAllocator::`default constructor closure'(void)" (__imp_??_FNamedAllocator@shdfnd@physx@@QEAAXXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: void __cdecl physx::shdfnd::NamedAllocator::`default constructor closure'(void)" (??_FNamedAllocator@shdfnd@physx@@QEAAXXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::shdfnd::Allocator::`default constructor closure'(void)" (__imp_??_FAllocator@shdfnd@physx@@QEAAXXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: void __cdecl physx::shdfnd::Allocator::`default constructor closure'(void)" (??_FAllocator@shdfnd@physx@@QEAAXXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) const physx::PxFoundation::`vftable'" (__imp_??_7PxFoundation@physx@@6B@) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxFoundation & __cdecl physx::PxFoundation::operator=(class physx::PxFoundation const &)" (__imp_??4PxFoundation@physx@@QEAAAEAV01@AEBV01@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::PxFoundation & __cdecl physx::PxFoundation::operator=(class physx::PxFoundation const &)" (??4PxFoundation@physx@@QEAAAEAV01@AEBV01@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::MutexImpl & __cdecl physx::shdfnd::MutexImpl::operator=(class physx::shdfnd::MutexImpl const &)" (__imp_??4MutexImpl@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::shdfnd::MutexImpl & __cdecl physx::shdfnd::MutexImpl::operator=(class physx::shdfnd::MutexImpl const &)" (??4MutexImpl@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::FPUGuard & __cdecl physx::shdfnd::FPUGuard::operator=(class physx::shdfnd::FPUGuard const &)" (__imp_??4FPUGuard@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::shdfnd::FPUGuard & __cdecl physx::shdfnd::FPUGuard::operator=(class physx::shdfnd::FPUGuard const &)" (??4FPUGuard@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::Allocator & __cdecl physx::shdfnd::Allocator::operator=(class physx::shdfnd::Allocator const &)" (__imp_??4Allocator@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::shdfnd::Allocator & __cdecl physx::shdfnd::Allocator::operator=(class physx::shdfnd::Allocator const &)" (??4Allocator@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::Allocator & __cdecl physx::shdfnd::Allocator::operator=(class physx::shdfnd::Allocator &&)" (__imp_??4Allocator@shdfnd@physx@@QEAAAEAV012@$$QEAV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: class physx::shdfnd::Allocator & __cdecl physx::shdfnd::Allocator::operator=(class physx::shdfnd::Allocator &&)" (??4Allocator@shdfnd@physx@@QEAAAEAV012@$$QEAV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) protected: virtual __cdecl physx::PxFoundation::~PxFoundation(void)" (__imp_??1PxFoundation@physx@@MEAA@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "protected: virtual __cdecl physx::PxFoundation::~PxFoundation(void)" (??1PxFoundation@physx@@MEAA@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::PxFoundation::PxFoundation(void)" (__imp_??0PxFoundation@physx@@QEAA@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: __cdecl physx::PxFoundation::PxFoundation(void)" (??0PxFoundation@physx@@QEAA@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::PxFoundation::PxFoundation(class physx::PxFoundation const &)" (__imp_??0PxFoundation@physx@@QEAA@AEBV01@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: __cdecl physx::PxFoundation::PxFoundation(class physx::PxFoundation const &)" (??0PxFoundation@physx@@QEAA@AEBV01@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::shdfnd::Allocator::Allocator(char const *)" (__imp_??0Allocator@shdfnd@physx@@QEAA@PEBD@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: __cdecl physx::shdfnd::Allocator::Allocator(char const *)" (??0Allocator@shdfnd@physx@@QEAA@PEBD@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxVec3 __cdecl physx::Gu::Box::transform(class physx::PxVec3 const &)const " (__imp_?transform@Box@Gu@physx@@QEBA?AVPxVec3@3@AEBV43@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::PxVec3 __cdecl physx::Gu::Box::transform(class physx::PxVec3 const &)const " (?transform@Box@Gu@physx@@QEBA?AVPxVec3@3@AEBV43@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::AABBTreeBuildNode::setNbRunTimePrimitives(unsigned int)" (__imp_?setNbRunTimePrimitives@AABBTreeBuildNode@Gu@physx@@QEAAXI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::AABBTreeBuildNode::setNbRunTimePrimitives(unsigned int)" (?setNbRunTimePrimitives@AABBTreeBuildNode@Gu@physx@@QEAAXI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::Box::setEmpty(void)" (__imp_?setEmpty@Box@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::Box::setEmpty(void)" (?setEmpty@Box@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::BuildStats::setCount(unsigned int)" (__imp_?setCount@BuildStats@Gu@physx@@QEAAXI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::BuildStats::setCount(unsigned int)" (?setCount@BuildStats@Gu@physx@@QEAAXI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::Box::setAxes(class physx::PxVec3 const &,class physx::PxVec3 const &,class physx::PxVec3 const &)" (__imp_?setAxes@Box@Gu@physx@@QEAAXAEBVPxVec3@3@00@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::Box::setAxes(class physx::PxVec3 const &,class physx::PxVec3 const &,class physx::PxVec3 const &)" (?setAxes@Box@Gu@physx@@QEAAXAEBVPxVec3@3@00@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: static int const physx::Cm::DebugText::sBufferSize" (__imp_?sBufferSize@DebugText@Cm@physx@@2HB) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxVec3 __cdecl physx::Gu::Box::rotateInv(class physx::PxVec3 const &)const " (__imp_?rotateInv@Box@Gu@physx@@QEBA?AVPxVec3@3@AEBV43@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::PxVec3 __cdecl physx::Gu::Box::rotateInv(class physx::PxVec3 const &)const " (?rotateInv@Box@Gu@physx@@QEBA?AVPxVec3@3@AEBV43@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxVec3 __cdecl physx::Gu::Box::rotate(class physx::PxVec3 const &)const " (__imp_?rotate@Box@Gu@physx@@QEBA?AVPxVec3@3@AEBV43@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::PxVec3 __cdecl physx::Gu::Box::rotate(class physx::PxVec3 const &)const " (?rotate@Box@Gu@physx@@QEBA?AVPxVec3@3@AEBV43@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::BuildStats::reset(void)" (__imp_?reset@BuildStats@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::BuildStats::reset(void)" (?reset@BuildStats@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::AABBTreeBuildParams::reset(void)" (__imp_?reset@AABBTreeBuildParams@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::AABBTreeBuildParams::reset(void)" (?reset@AABBTreeBuildParams@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: struct physx::PxDebugLine * __cdecl physx::Cm::RenderOutput::reserveSegments(unsigned int)" (__imp_?reserveSegments@RenderOutput@Cm@physx@@QEAAPEAUPxDebugLine@3@I@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: struct physx::PxDebugLine * __cdecl physx::Cm::RenderOutput::reserveSegments(unsigned int)" (?reserveSegments@RenderOutput@Cm@physx@@QEAAPEAUPxDebugLine@3@I@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::HeightField::preExportDataReset(void)" (__imp_?preExportDataReset@HeightField@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::HeightField::preExportDataReset(void)" (?preExportDataReset@HeightField@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::ConvexMesh::preExportDataReset(void)" (__imp_?preExportDataReset@ConvexMesh@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::ConvexMesh::preExportDataReset(void)" (?preExportDataReset@ConvexMesh@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Cm::RenderOutput::outputSegment(class physx::PxVec3 const &,class physx::PxVec3 const &)" (__imp_?outputSegment@RenderOutput@Cm@physx@@QEAAXAEBVPxVec3@3@0@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Cm::RenderOutput::outputSegment(class physx::PxVec3 const &,class physx::PxVec3 const &)" (?outputSegment@RenderOutput@Cm@physx@@QEAAXAEBVPxVec3@3@0@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: bool __cdecl physx::Gu::Box::isValid(void)const " (__imp_?isValid@Box@Gu@physx@@QEBA_NXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: bool __cdecl physx::Gu::Box::isValid(void)const " (?isValid@Box@Gu@physx@@QEBA_NXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: bool __cdecl physx::Gu::AABBTreeBuildNode::isLeaf(void)const " (__imp_?isLeaf@AABBTreeBuildNode@Gu@physx@@QEBA_NXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: bool __cdecl physx::Gu::AABBTreeBuildNode::isLeaf(void)const " (?isLeaf@AABBTreeBuildNode@Gu@physx@@QEBA_NXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) protected: virtual bool __cdecl physx::PxHeightField::isKindOf(char const *)const " (__imp_?isKindOf@PxHeightField@physx@@MEBA_NPEBD@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "protected: virtual bool __cdecl physx::PxHeightField::isKindOf(char const *)const " (?isKindOf@PxHeightField@physx@@MEBA_NPEBD@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) protected: virtual bool __cdecl physx::PxConvexMesh::isKindOf(char const *)const " (__imp_?isKindOf@PxConvexMesh@physx@@MEBA_NPEBD@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "protected: virtual bool __cdecl physx::PxConvexMesh::isKindOf(char const *)const " (?isKindOf@PxConvexMesh@physx@@MEBA_NPEBD@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Cm::RadixSort::invalidateRanks(void)" (__imp_?invalidateRanks@RadixSort@Cm@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Cm::RadixSort::invalidateRanks(void)" (?invalidateRanks@RadixSort@Cm@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::BuildStats::increaseCount(unsigned int)" (__imp_?increaseCount@BuildStats@Gu@physx@@QEAAXI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::BuildStats::increaseCount(unsigned int)" (?increaseCount@BuildStats@Gu@physx@@QEAAXI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual class physx::PxVec3 const * __cdecl physx::Gu::ConvexMesh::getVertices(void)const " (__imp_?getVertices@ConvexMesh@Gu@physx@@UEBAPEBVPxVec3@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual class physx::PxVec3 const * __cdecl physx::Gu::ConvexMesh::getVertices(void)const " (?getVertices@ConvexMesh@Gu@physx@@UEBAPEBVPxVec3@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual class physx::PxVec3 __cdecl physx::Gu::HeightField::getTriangleNormal(unsigned int)const " (__imp_?getTriangleNormal@HeightField@Gu@physx@@UEBA?AVPxVec3@3@I@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual class physx::PxVec3 __cdecl physx::Gu::HeightField::getTriangleNormal(unsigned int)const " (?getTriangleNormal@HeightField@Gu@physx@@UEBA?AVPxVec3@3@I@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual unsigned short __cdecl physx::Gu::HeightField::getTriangleMaterialIndex(unsigned int)const " (__imp_?getTriangleMaterialIndex@HeightField@Gu@physx@@UEBAGI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual unsigned short __cdecl physx::Gu::HeightField::getTriangleMaterialIndex(unsigned int)const " (?getTriangleMaterialIndex@HeightField@Gu@physx@@UEBAGI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxTransform __cdecl physx::Gu::Box::getTransform(void)const " (__imp_?getTransform@Box@Gu@physx@@QEBA?AVPxTransform@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::PxTransform __cdecl physx::Gu::Box::getTransform(void)const " (?getTransform@Box@Gu@physx@@QEBA?AVPxTransform@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual unsigned int __cdecl physx::Gu::HeightField::getTimestamp(void)const " (__imp_?getTimestamp@HeightField@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual unsigned int __cdecl physx::Gu::HeightField::getTimestamp(void)const " (?getTimestamp@HeightField@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual unsigned int __cdecl physx::Gu::HeightField::getSampleStride(void)const " (__imp_?getSampleStride@HeightField@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual unsigned int __cdecl physx::Gu::HeightField::getSampleStride(void)const " (?getSampleStride@HeightField@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual struct physx::PxHeightFieldSample const & __cdecl physx::Gu::HeightField::getSample(unsigned int,unsigned int)const " (__imp_?getSample@HeightField@Gu@physx@@UEBAAEBUPxHeightFieldSample@3@II@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual struct physx::PxHeightFieldSample const & __cdecl physx::Gu::HeightField::getSample(unsigned int,unsigned int)const " (?getSample@HeightField@Gu@physx@@UEBAAEBUPxHeightFieldSample@3@II@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int const * __cdecl physx::Gu::AABBTreeBuildNode::getPrimitives(unsigned int const *)const " (__imp_?getPrimitives@AABBTreeBuildNode@Gu@physx@@QEBAPEBIPEBI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int const * __cdecl physx::Gu::AABBTreeBuildNode::getPrimitives(unsigned int const *)const " (?getPrimitives@AABBTreeBuildNode@Gu@physx@@QEBAPEBIPEBI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int * __cdecl physx::Gu::AABBTreeBuildNode::getPrimitives(unsigned int *)" (__imp_?getPrimitives@AABBTreeBuildNode@Gu@physx@@QEAAPEAIPEAI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int * __cdecl physx::Gu::AABBTreeBuildNode::getPrimitives(unsigned int *)" (?getPrimitives@AABBTreeBuildNode@Gu@physx@@QEAAPEAIPEAI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::Gu::AABBTreeBuildNode const * __cdecl physx::Gu::AABBTreeBuildNode::getPos(void)const " (__imp_?getPos@AABBTreeBuildNode@Gu@physx@@QEBAPEBV123@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::Gu::AABBTreeBuildNode const * __cdecl physx::Gu::AABBTreeBuildNode::getPos(void)const " (?getPos@AABBTreeBuildNode@Gu@physx@@QEBAPEBV123@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::Gu::CenterExtentsPadded const & __cdecl physx::Gu::HeightFieldData::getPaddedBounds(void)const " (__imp_?getPaddedBounds@HeightFieldData@Gu@physx@@QEBAAEBVCenterExtentsPadded@23@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::Gu::CenterExtentsPadded const & __cdecl physx::Gu::HeightFieldData::getPaddedBounds(void)const " (?getPaddedBounds@HeightFieldData@Gu@physx@@QEBAAEBVCenterExtentsPadded@23@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::Gu::AABBTreeBuildNode const * __cdecl physx::Gu::AABBTreeBuildNode::getNeg(void)const " (__imp_?getNeg@AABBTreeBuildNode@Gu@physx@@QEBAPEBV123@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::Gu::AABBTreeBuildNode const * __cdecl physx::Gu::AABBTreeBuildNode::getNeg(void)const " (?getNeg@AABBTreeBuildNode@Gu@physx@@QEBAPEBV123@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual unsigned int __cdecl physx::Gu::ConvexMesh::getNbVertices(void)const " (__imp_?getNbVertices@ConvexMesh@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual unsigned int __cdecl physx::Gu::ConvexMesh::getNbVertices(void)const " (?getNbVertices@ConvexMesh@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int __cdecl physx::Gu::AABBTreeBuildNode::getNbRuntimePrimitives(void)const " (__imp_?getNbRuntimePrimitives@AABBTreeBuildNode@Gu@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int __cdecl physx::Gu::AABBTreeBuildNode::getNbRuntimePrimitives(void)const " (?getNbRuntimePrimitives@AABBTreeBuildNode@Gu@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual unsigned int __cdecl physx::Gu::HeightField::getNbRows(void)const " (__imp_?getNbRows@HeightField@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual unsigned int __cdecl physx::Gu::HeightField::getNbRows(void)const " (?getNbRows@HeightField@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int __cdecl physx::Gu::AABBTreeBuildNode::getNbPrimitives(void)const " (__imp_?getNbPrimitives@AABBTreeBuildNode@Gu@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int __cdecl physx::Gu::AABBTreeBuildNode::getNbPrimitives(void)const " (?getNbPrimitives@AABBTreeBuildNode@Gu@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual unsigned int __cdecl physx::Gu::ConvexMesh::getNbPolygons(void)const " (__imp_?getNbPolygons@ConvexMesh@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual unsigned int __cdecl physx::Gu::ConvexMesh::getNbPolygons(void)const " (?getNbPolygons@ConvexMesh@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual unsigned int __cdecl physx::Gu::HeightField::getNbColumns(void)const " (__imp_?getNbColumns@HeightField@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual unsigned int __cdecl physx::Gu::HeightField::getNbColumns(void)const " (?getNbColumns@HeightField@Gu@physx@@UEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual unsigned char const * __cdecl physx::Gu::ConvexMesh::getIndexBuffer(void)const " (__imp_?getIndexBuffer@ConvexMesh@Gu@physx@@UEBAPEBEXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual unsigned char const * __cdecl physx::Gu::ConvexMesh::getIndexBuffer(void)const " (?getIndexBuffer@ConvexMesh@Gu@physx@@UEBAPEBEXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual float __cdecl physx::Gu::HeightField::getHeight(float,float)const " (__imp_?getHeight@HeightField@Gu@physx@@UEBAMMM@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual float __cdecl physx::Gu::HeightField::getHeight(float,float)const " (?getHeight@HeightField@Gu@physx@@UEBAMMM@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual enum physx::PxHeightFieldFormat::Enum __cdecl physx::Gu::HeightField::getFormat(void)const " (__imp_?getFormat@HeightField@Gu@physx@@UEBA?AW4Enum@PxHeightFieldFormat@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual enum physx::PxHeightFieldFormat::Enum __cdecl physx::Gu::HeightField::getFormat(void)const " (?getFormat@HeightField@Gu@physx@@UEBA?AW4Enum@PxHeightFieldFormat@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual class physx::PxFlags<enum physx::PxHeightFieldFlag::Enum,unsigned short> __cdecl physx::Gu::HeightField::getFlags(void)const " (__imp_?getFlags@HeightField@Gu@physx@@UEBA?AV?$PxFlags@W4Enum@PxHeightFieldFlag@physx@@G@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual class physx::PxFlags<enum physx::PxHeightFieldFlag::Enum,unsigned short> __cdecl physx::Gu::HeightField::getFlags(void)const " (?getFlags@HeightField@Gu@physx@@UEBA?AV?$PxFlags@W4Enum@PxHeightFieldFlag@physx@@G@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int __cdecl physx::Gu::BuildStats::getCount(void)const " (__imp_?getCount@BuildStats@Gu@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int __cdecl physx::Gu::BuildStats::getCount(void)const " (?getCount@BuildStats@Gu@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual float __cdecl physx::Gu::HeightField::getConvexEdgeThreshold(void)const " (__imp_?getConvexEdgeThreshold@HeightField@Gu@physx@@UEBAMXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual float __cdecl physx::Gu::HeightField::getConvexEdgeThreshold(void)const " (?getConvexEdgeThreshold@HeightField@Gu@physx@@UEBAMXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual char const * __cdecl physx::PxHeightField::getConcreteTypeName(void)const " (__imp_?getConcreteTypeName@PxHeightField@physx@@UEBAPEBDXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual char const * __cdecl physx::PxHeightField::getConcreteTypeName(void)const " (?getConcreteTypeName@PxHeightField@physx@@UEBAPEBDXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual char const * __cdecl physx::PxConvexMesh::getConcreteTypeName(void)const " (__imp_?getConcreteTypeName@PxConvexMesh@physx@@UEBAPEBDXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: virtual char const * __cdecl physx::PxConvexMesh::getConcreteTypeName(void)const " (?getConcreteTypeName@PxConvexMesh@physx@@UEBAPEBDXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxBounds3 const & __cdecl physx::Gu::AABBTreeBuildNode::getAABB(void)const " (__imp_?getAABB@AABBTreeBuildNode@Gu@physx@@QEBAAEBVPxBounds3@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::PxBounds3 const & __cdecl physx::Gu::AABBTreeBuildNode::getAABB(void)const " (?getAABB@AABBTreeBuildNode@Gu@physx@@QEBAAEBVPxBounds3@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::Box::computeBoxPoints(class physx::PxVec3 * __restrict)const " (__imp_?computeBoxPoints@Box@Gu@physx@@QEBAXPEIAVPxVec3@3@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::Box::computeBoxPoints(class physx::PxVec3 * __restrict)const " (?computeBoxPoints@Box@Gu@physx@@QEBAXPEIAVPxVec3@3@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxVec3 __cdecl physx::Gu::Box::computeAABBExtent(void)const " (__imp_?computeAABBExtent@Box@Gu@physx@@QEBA?AVPxVec3@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::PxVec3 __cdecl physx::Gu::Box::computeAABBExtent(void)const " (?computeAABBExtent@Box@Gu@physx@@QEBA?AVPxVec3@3@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned short __cdecl physx::BigConvexData::GetValency(unsigned int)const " (__imp_?GetValency@BigConvexData@physx@@QEBAGI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned short __cdecl physx::BigConvexData::GetValency(unsigned int)const " (?GetValency@BigConvexData@physx@@QEBAGI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: struct physx::Gu::Valency const * __cdecl physx::BigConvexData::GetValencies(void)const " (__imp_?GetValencies@BigConvexData@physx@@QEBAPEBUValency@Gu@2@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: struct physx::Gu::Valency const * __cdecl physx::BigConvexData::GetValencies(void)const " (?GetValencies@BigConvexData@physx@@QEBAPEBUValency@Gu@2@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int __cdecl physx::BigConvexData::GetSubdiv(void)const " (__imp_?GetSubdiv@BigConvexData@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int __cdecl physx::BigConvexData::GetSubdiv(void)const " (?GetSubdiv@BigConvexData@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int * __cdecl physx::Cm::RadixSort::GetRecyclable(void)const " (__imp_?GetRecyclable@RadixSort@Cm@physx@@QEBAPEAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int * __cdecl physx::Cm::RadixSort::GetRecyclable(void)const " (?GetRecyclable@RadixSort@Cm@physx@@QEBAPEAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int const * __cdecl physx::Cm::RadixSort::GetRanks(void)const " (__imp_?GetRanks@RadixSort@Cm@physx@@QEBAPEBIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int const * __cdecl physx::Cm::RadixSort::GetRanks(void)const " (?GetRanks@RadixSort@Cm@physx@@QEBAPEBIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned short __cdecl physx::BigConvexData::GetOffset(unsigned int)const " (__imp_?GetOffset@BigConvexData@physx@@QEBAGI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned short __cdecl physx::BigConvexData::GetOffset(unsigned int)const " (?GetOffset@BigConvexData@physx@@QEBAGI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned char const * __cdecl physx::BigConvexData::GetNeighbors(unsigned int)const " (__imp_?GetNeighbors@BigConvexData@physx@@QEBAPEBEI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned char const * __cdecl physx::BigConvexData::GetNeighbors(unsigned int)const " (?GetNeighbors@BigConvexData@physx@@QEBAPEBEI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int __cdecl physx::BigConvexData::GetNbVerts(void)const " (__imp_?GetNbVerts@BigConvexData@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int __cdecl physx::BigConvexData::GetNbVerts(void)const " (?GetNbVerts@BigConvexData@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int __cdecl physx::Cm::RadixSort::GetNbTotalCalls(void)const " (__imp_?GetNbTotalCalls@RadixSort@Cm@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int __cdecl physx::Cm::RadixSort::GetNbTotalCalls(void)const " (?GetNbTotalCalls@RadixSort@Cm@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int __cdecl physx::BigConvexData::GetNbSamples(void)const " (__imp_?GetNbSamples@BigConvexData@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int __cdecl physx::BigConvexData::GetNbSamples(void)const " (?GetNbSamples@BigConvexData@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned short __cdecl physx::BigConvexData::GetNbNeighbors(unsigned int)const " (__imp_?GetNbNeighbors@BigConvexData@physx@@QEBAGI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned short __cdecl physx::BigConvexData::GetNbNeighbors(unsigned int)const " (?GetNbNeighbors@BigConvexData@physx@@QEBAGI@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned int __cdecl physx::Cm::RadixSort::GetNbHits(void)const " (__imp_?GetNbHits@RadixSort@Cm@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned int __cdecl physx::Cm::RadixSort::GetNbHits(void)const " (?GetNbHits@RadixSort@Cm@physx@@QEBAIXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: unsigned char const * __cdecl physx::BigConvexData::GetAdjacentVerts(void)const " (__imp_?GetAdjacentVerts@BigConvexData@physx@@QEBAPEBEXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: unsigned char const * __cdecl physx::BigConvexData::GetAdjacentVerts(void)const " (?GetAdjacentVerts@BigConvexData@physx@@QEBAPEBEXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::Gu::AABBTreeBuildParams::`default constructor closure'(void)" (__imp_??_FAABBTreeBuildParams@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: void __cdecl physx::Gu::AABBTreeBuildParams::`default constructor closure'(void)" (??_FAABBTreeBuildParams@Gu@physx@@QEAAXXZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::Gu::NodeAllocator & __cdecl physx::Gu::NodeAllocator::operator=(class physx::Gu::NodeAllocator const &)" (__imp_??4NodeAllocator@Gu@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::Gu::NodeAllocator & __cdecl physx::Gu::NodeAllocator::operator=(class physx::Gu::NodeAllocator const &)" (??4NodeAllocator@Gu@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: struct physx::Gu::HeightFieldData & __cdecl physx::Gu::HeightFieldData::operator=(struct physx::Gu::HeightFieldData const &)" (__imp_??4HeightFieldData@Gu@physx@@QEAAAEAU012@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: struct physx::Gu::HeightFieldData & __cdecl physx::Gu::HeightFieldData::operator=(struct physx::Gu::HeightFieldData const &)" (??4HeightFieldData@Gu@physx@@QEAAAEAU012@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: struct physx::Gu::HeightFieldData & __cdecl physx::Gu::HeightFieldData::operator=(struct physx::Gu::HeightFieldData &&)" (__imp_??4HeightFieldData@Gu@physx@@QEAAAEAU012@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: struct physx::Gu::HeightFieldData & __cdecl physx::Gu::HeightFieldData::operator=(struct physx::Gu::HeightFieldData &&)" (??4HeightFieldData@Gu@physx@@QEAAAEAU012@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: struct physx::Cm::DebugText & __cdecl physx::Cm::DebugText::operator=(struct physx::Cm::DebugText const &)" (__imp_??4DebugText@Cm@physx@@QEAAAEAU012@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: struct physx::Cm::DebugText & __cdecl physx::Cm::DebugText::operator=(struct physx::Cm::DebugText const &)" (??4DebugText@Cm@physx@@QEAAAEAU012@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: struct physx::Cm::DebugText & __cdecl physx::Cm::DebugText::operator=(struct physx::Cm::DebugText &&)" (__imp_??4DebugText@Cm@physx@@QEAAAEAU012@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: struct physx::Cm::DebugText & __cdecl physx::Cm::DebugText::operator=(struct physx::Cm::DebugText &&)" (??4DebugText@Cm@physx@@QEAAAEAU012@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: struct physx::Gu::BuildStats & __cdecl physx::Gu::BuildStats::operator=(struct physx::Gu::BuildStats const &)" (__imp_??4BuildStats@Gu@physx@@QEAAAEAU012@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: struct physx::Gu::BuildStats & __cdecl physx::Gu::BuildStats::operator=(struct physx::Gu::BuildStats const &)" (??4BuildStats@Gu@physx@@QEAAAEAU012@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: struct physx::Gu::BuildStats & __cdecl physx::Gu::BuildStats::operator=(struct physx::Gu::BuildStats &&)" (__imp_??4BuildStats@Gu@physx@@QEAAAEAU012@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: struct physx::Gu::BuildStats & __cdecl physx::Gu::BuildStats::operator=(struct physx::Gu::BuildStats &&)" (??4BuildStats@Gu@physx@@QEAAAEAU012@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::Gu::Box const & __cdecl physx::Gu::Box::operator=(class physx::Gu::Box const &)" (__imp_??4Box@Gu@physx@@QEAAAEBV012@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::Gu::Box const & __cdecl physx::Gu::Box::operator=(class physx::Gu::Box const &)" (??4Box@Gu@physx@@QEAAAEBV012@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::BigConvexData & __cdecl physx::BigConvexData::operator=(class physx::BigConvexData const &)" (__imp_??4BigConvexData@physx@@QEAAAEAV01@AEBV01@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::BigConvexData & __cdecl physx::BigConvexData::operator=(class physx::BigConvexData const &)" (??4BigConvexData@physx@@QEAAAEAV01@AEBV01@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::Gu::AABBTreeBuildParams & __cdecl physx::Gu::AABBTreeBuildParams::operator=(class physx::Gu::AABBTreeBuildParams const &)" (__imp_??4AABBTreeBuildParams@Gu@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::Gu::AABBTreeBuildParams & __cdecl physx::Gu::AABBTreeBuildParams::operator=(class physx::Gu::AABBTreeBuildParams const &)" (??4AABBTreeBuildParams@Gu@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::Gu::AABBTreeBuildNode & __cdecl physx::Gu::AABBTreeBuildNode::operator=(class physx::Gu::AABBTreeBuildNode const &)" (__imp_??4AABBTreeBuildNode@Gu@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: class physx::Gu::AABBTreeBuildNode & __cdecl physx::Gu::AABBTreeBuildNode::operator=(class physx::Gu::AABBTreeBuildNode const &)" (??4AABBTreeBuildNode@Gu@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) protected: virtual __cdecl physx::PxHeightField::~PxHeightField(void)" (__imp_??1PxHeightField@physx@@MEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "protected: virtual __cdecl physx::PxHeightField::~PxHeightField(void)" (??1PxHeightField@physx@@MEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) protected: virtual __cdecl physx::PxConvexMesh::~PxConvexMesh(void)" (__imp_??1PxConvexMesh@physx@@MEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "protected: virtual __cdecl physx::PxConvexMesh::~PxConvexMesh(void)" (??1PxConvexMesh@physx@@MEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::HeightFieldData::~HeightFieldData(void)" (__imp_??1HeightFieldData@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::HeightFieldData::~HeightFieldData(void)" (??1HeightFieldData@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::Box::~Box(void)" (__imp_??1Box@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::Box::~Box(void)" (??1Box@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::AABBTreeBuildParams::~AABBTreeBuildParams(void)" (__imp_??1AABBTreeBuildParams@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::AABBTreeBuildParams::~AABBTreeBuildParams(void)" (??1AABBTreeBuildParams@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::AABBTreeBuildNode::~AABBTreeBuildNode(void)" (__imp_??1AABBTreeBuildNode@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::AABBTreeBuildNode::~AABBTreeBuildNode(void)" (??1AABBTreeBuildNode@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Cm::RenderOutput::RenderOutput(class physx::Cm::RenderOutput const &)" (__imp_??0RenderOutput@Cm@physx@@QEAA@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Cm::RenderOutput::RenderOutput(class physx::Cm::RenderOutput const &)" (??0RenderOutput@Cm@physx@@QEAA@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Cm::RenderOutput::RenderOutput(class physx::Cm::RenderBuffer &)" (__imp_??0RenderOutput@Cm@physx@@QEAA@AEAVRenderBuffer@12@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Cm::RenderOutput::RenderOutput(class physx::Cm::RenderBuffer &)" (??0RenderOutput@Cm@physx@@QEAA@AEAVRenderBuffer@12@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::NodeAllocator::NodeAllocator(class physx::Gu::NodeAllocator const &)" (__imp_??0NodeAllocator@Gu@physx@@QEAA@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::NodeAllocator::NodeAllocator(class physx::Gu::NodeAllocator const &)" (??0NodeAllocator@Gu@physx@@QEAA@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::HeightFieldData::HeightFieldData(void)" (__imp_??0HeightFieldData@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::HeightFieldData::HeightFieldData(void)" (??0HeightFieldData@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::HeightFieldData::HeightFieldData(enum physx::PxEMPTY)" (__imp_??0HeightFieldData@Gu@physx@@QEAA@W4PxEMPTY@2@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::HeightFieldData::HeightFieldData(enum physx::PxEMPTY)" (??0HeightFieldData@Gu@physx@@QEAA@W4PxEMPTY@2@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::HeightFieldData::HeightFieldData(struct physx::Gu::HeightFieldData const &)" (__imp_??0HeightFieldData@Gu@physx@@QEAA@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::HeightFieldData::HeightFieldData(struct physx::Gu::HeightFieldData const &)" (??0HeightFieldData@Gu@physx@@QEAA@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::HeightFieldData::HeightFieldData(struct physx::Gu::HeightFieldData &&)" (__imp_??0HeightFieldData@Gu@physx@@QEAA@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::HeightFieldData::HeightFieldData(struct physx::Gu::HeightFieldData &&)" (??0HeightFieldData@Gu@physx@@QEAA@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Cm::DebugText::DebugText(struct physx::Cm::DebugText const &)" (__imp_??0DebugText@Cm@physx@@QEAA@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Cm::DebugText::DebugText(struct physx::Cm::DebugText const &)" (??0DebugText@Cm@physx@@QEAA@AEBU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Cm::DebugText::DebugText(struct physx::Cm::DebugText &&)" (__imp_??0DebugText@Cm@physx@@QEAA@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Cm::DebugText::DebugText(struct physx::Cm::DebugText &&)" (??0DebugText@Cm@physx@@QEAA@$$QEAU012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::BuildStats::BuildStats(void)" (__imp_??0BuildStats@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::BuildStats::BuildStats(void)" (??0BuildStats@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::Box::Box(void)" (__imp_??0Box@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::Box::Box(void)" (??0Box@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::Box::Box(class physx::PxVec3 const &,class physx::PxVec3 const &,class physx::PxMat33 const &)" (__imp_??0Box@Gu@physx@@QEAA@AEBVPxVec3@2@0AEBVPxMat33@2@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::Box::Box(class physx::PxVec3 const &,class physx::PxVec3 const &,class physx::PxMat33 const &)" (??0Box@Gu@physx@@QEAA@AEBVPxVec3@2@0AEBVPxMat33@2@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::Box::Box(class physx::Gu::Box const &)" (__imp_??0Box@Gu@physx@@QEAA@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::Box::Box(class physx::Gu::Box const &)" (??0Box@Gu@physx@@QEAA@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::BigConvexData::BigConvexData(enum physx::PxEMPTY)" (__imp_??0BigConvexData@physx@@QEAA@W4PxEMPTY@1@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::BigConvexData::BigConvexData(enum physx::PxEMPTY)" (??0BigConvexData@physx@@QEAA@W4PxEMPTY@1@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::AABBTreeBuildParams::AABBTreeBuildParams(unsigned int,unsigned int,class physx::PxBounds3 const *)" (__imp_??0AABBTreeBuildParams@Gu@physx@@QEAA@IIPEBVPxBounds3@2@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::AABBTreeBuildParams::AABBTreeBuildParams(unsigned int,unsigned int,class physx::PxBounds3 const *)" (??0AABBTreeBuildParams@Gu@physx@@QEAA@IIPEBVPxBounds3@2@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::AABBTreeBuildNode::AABBTreeBuildNode(void)" (__imp_??0AABBTreeBuildNode@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::AABBTreeBuildNode::AABBTreeBuildNode(void)" (??0AABBTreeBuildNode@Gu@physx@@QEAA@XZ) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::Gu::AABBTreeBuildNode::AABBTreeBuildNode(class physx::Gu::AABBTreeBuildNode const &)" (__imp_??0AABBTreeBuildNode@Gu@physx@@QEAA@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: "public: __cdecl physx::Gu::AABBTreeBuildNode::AABBTreeBuildNode(class physx::Gu::AABBTreeBuildNode const &)" (??0AABBTreeBuildNode@Gu@physx@@QEAA@AEBV012@@Z) already defined in PhysXCooking_64.lib(PhysXCooking_64.dll); second definition ignored
+PhysXCommon_64.lib(PhysXCommon_64.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: static unsigned int const physx::shdfnd::SyncImpl::waitForever" (__imp_?waitForever@SyncImpl@shdfnd@physx@@2IB) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual void __cdecl physx::shdfnd::Foundation::setReportAllocationNames(bool)" (__imp_?setReportAllocationNames@Foundation@shdfnd@physx@@UEAAX_N@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: virtual void __cdecl physx::shdfnd::Foundation::setReportAllocationNames(bool)" (?setReportAllocationNames@Foundation@shdfnd@physx@@UEAAX_N@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual void __cdecl physx::shdfnd::Foundation::setErrorLevel(enum physx::PxErrorCode::Enum)" (__imp_?setErrorLevel@Foundation@shdfnd@physx@@UEAAXW4Enum@PxErrorCode@3@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: virtual void __cdecl physx::shdfnd::Foundation::setErrorLevel(enum physx::PxErrorCode::Enum)" (?setErrorLevel@Foundation@shdfnd@physx@@UEAAXW4Enum@PxErrorCode@3@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::MutexT<class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getTempAllocMutex(void)" (__imp_?getTempAllocMutex@Foundation@shdfnd@physx@@QEAAAEAV?$MutexT@VAllocator@shdfnd@physx@@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::MutexT<class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getTempAllocMutex(void)" (?getTempAllocMutex@Foundation@shdfnd@physx@@QEAAAEAV?$MutexT@VAllocator@shdfnd@physx@@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::Array<union physx::shdfnd::TempAllocatorChunk *,class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getTempAllocFreeTable(void)" (__imp_?getTempAllocFreeTable@Foundation@shdfnd@physx@@QEAAAEAV?$Array@PEATTempAllocatorChunk@shdfnd@physx@@VAllocator@23@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::Array<union physx::shdfnd::TempAllocatorChunk *,class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getTempAllocFreeTable(void)" (?getTempAllocFreeTable@Foundation@shdfnd@physx@@QEAAAEAV?$Array@PEATTempAllocatorChunk@shdfnd@physx@@VAllocator@23@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual bool __cdecl physx::shdfnd::Foundation::getReportAllocationNames(void)const " (__imp_?getReportAllocationNames@Foundation@shdfnd@physx@@UEBA_NXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: virtual bool __cdecl physx::shdfnd::Foundation::getReportAllocationNames(void)const " (?getReportAllocationNames@Foundation@shdfnd@physx@@UEBA_NXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::MutexT<class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getNamedAllocMutex(void)" (__imp_?getNamedAllocMutex@Foundation@shdfnd@physx@@QEAAAEAV?$MutexT@VAllocator@shdfnd@physx@@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::MutexT<class physx::shdfnd::Allocator> & __cdecl physx::shdfnd::Foundation::getNamedAllocMutex(void)" (?getNamedAllocMutex@Foundation@shdfnd@physx@@QEAAAEAV?$MutexT@VAllocator@shdfnd@physx@@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::HashMap<class physx::shdfnd::NamedAllocator const *,char const *,struct physx::shdfnd::Hash<class physx::shdfnd::NamedAllocator const *>,class physx::shdfnd::NonTrackingAllocator> & __cdecl physx::shdfnd::Foundation::getNamedAllocMap(void)" (__imp_?getNamedAllocMap@Foundation@shdfnd@physx@@QEAAAEAV?$HashMap@PEBVNamedAllocator@shdfnd@physx@@PEBDU?$Hash@PEBVNamedAllocator@shdfnd@physx@@@23@VNonTrackingAllocator@23@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::HashMap<class physx::shdfnd::NamedAllocator const *,char const *,struct physx::shdfnd::Hash<class physx::shdfnd::NamedAllocator const *>,class physx::shdfnd::NonTrackingAllocator> & __cdecl physx::shdfnd::Foundation::getNamedAllocMap(void)" (?getNamedAllocMap@Foundation@shdfnd@physx@@QEAAAEAV?$HashMap@PEBVNamedAllocator@shdfnd@physx@@PEBDU?$Hash@PEBVNamedAllocator@shdfnd@physx@@@23@VNonTrackingAllocator@23@@23@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxErrorCallback & __cdecl physx::shdfnd::Foundation::getInternalErrorCallback(void)" (__imp_?getInternalErrorCallback@Foundation@shdfnd@physx@@QEAAAEAVPxErrorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::PxErrorCallback & __cdecl physx::shdfnd::Foundation::getInternalErrorCallback(void)" (?getInternalErrorCallback@Foundation@shdfnd@physx@@QEAAAEAVPxErrorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual enum physx::PxErrorCode::Enum __cdecl physx::shdfnd::Foundation::getErrorLevel(void)const " (__imp_?getErrorLevel@Foundation@shdfnd@physx@@UEBA?AW4Enum@PxErrorCode@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: virtual enum physx::PxErrorCode::Enum __cdecl physx::shdfnd::Foundation::getErrorLevel(void)const " (?getErrorLevel@Foundation@shdfnd@physx@@UEBA?AW4Enum@PxErrorCode@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual class physx::PxErrorCallback & __cdecl physx::shdfnd::Foundation::getErrorCallback(void)" (__imp_?getErrorCallback@Foundation@shdfnd@physx@@UEAAAEAVPxErrorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: virtual class physx::PxErrorCallback & __cdecl physx::shdfnd::Foundation::getErrorCallback(void)" (?getErrorCallback@Foundation@shdfnd@physx@@UEAAAEAVPxErrorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual class physx::PxAllocatorCallback & __cdecl physx::shdfnd::Foundation::getAllocatorCallback(void)" (__imp_?getAllocatorCallback@Foundation@shdfnd@physx@@UEAAAEAVPxAllocatorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: virtual class physx::PxAllocatorCallback & __cdecl physx::shdfnd::Foundation::getAllocatorCallback(void)" (?getAllocatorCallback@Foundation@shdfnd@physx@@UEAAAEAVPxAllocatorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxAllocatorCallback & __cdecl physx::shdfnd::Foundation::getAllocator(void)" (__imp_?getAllocator@Foundation@shdfnd@physx@@QEAAAEAVPxAllocatorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::PxAllocatorCallback & __cdecl physx::shdfnd::Foundation::getAllocator(void)" (?getAllocator@Foundation@shdfnd@physx@@QEAAAEAVPxAllocatorCallback@3@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::shdfnd::NamedAllocator::`default constructor closure'(void)" (__imp_??_FNamedAllocator@shdfnd@physx@@QEAAXXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: void __cdecl physx::shdfnd::NamedAllocator::`default constructor closure'(void)" (??_FNamedAllocator@shdfnd@physx@@QEAAXXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: void __cdecl physx::shdfnd::Allocator::`default constructor closure'(void)" (__imp_??_FAllocator@shdfnd@physx@@QEAAXXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: void __cdecl physx::shdfnd::Allocator::`default constructor closure'(void)" (??_FAllocator@shdfnd@physx@@QEAAXXZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) const physx::PxFoundation::`vftable'" (__imp_??_7PxFoundation@physx@@6B@) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::ThreadImpl & __cdecl physx::shdfnd::ThreadImpl::operator=(class physx::shdfnd::ThreadImpl const &)" (__imp_??4ThreadImpl@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::ThreadImpl & __cdecl physx::shdfnd::ThreadImpl::operator=(class physx::shdfnd::ThreadImpl const &)" (??4ThreadImpl@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::SyncImpl & __cdecl physx::shdfnd::SyncImpl::operator=(class physx::shdfnd::SyncImpl const &)" (__imp_??4SyncImpl@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::SyncImpl & __cdecl physx::shdfnd::SyncImpl::operator=(class physx::shdfnd::SyncImpl const &)" (??4SyncImpl@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::PxFoundation & __cdecl physx::PxFoundation::operator=(class physx::PxFoundation const &)" (__imp_??4PxFoundation@physx@@QEAAAEAV01@AEBV01@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::PxFoundation & __cdecl physx::PxFoundation::operator=(class physx::PxFoundation const &)" (??4PxFoundation@physx@@QEAAAEAV01@AEBV01@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::MutexImpl & __cdecl physx::shdfnd::MutexImpl::operator=(class physx::shdfnd::MutexImpl const &)" (__imp_??4MutexImpl@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::MutexImpl & __cdecl physx::shdfnd::MutexImpl::operator=(class physx::shdfnd::MutexImpl const &)" (??4MutexImpl@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::FPUGuard & __cdecl physx::shdfnd::FPUGuard::operator=(class physx::shdfnd::FPUGuard const &)" (__imp_??4FPUGuard@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::FPUGuard & __cdecl physx::shdfnd::FPUGuard::operator=(class physx::shdfnd::FPUGuard const &)" (??4FPUGuard@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::Allocator & __cdecl physx::shdfnd::Allocator::operator=(class physx::shdfnd::Allocator const &)" (__imp_??4Allocator@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::Allocator & __cdecl physx::shdfnd::Allocator::operator=(class physx::shdfnd::Allocator const &)" (??4Allocator@shdfnd@physx@@QEAAAEAV012@AEBV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: class physx::shdfnd::Allocator & __cdecl physx::shdfnd::Allocator::operator=(class physx::shdfnd::Allocator &&)" (__imp_??4Allocator@shdfnd@physx@@QEAAAEAV012@$$QEAV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: class physx::shdfnd::Allocator & __cdecl physx::shdfnd::Allocator::operator=(class physx::shdfnd::Allocator &&)" (??4Allocator@shdfnd@physx@@QEAAAEAV012@$$QEAV012@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) protected: virtual __cdecl physx::PxFoundation::~PxFoundation(void)" (__imp_??1PxFoundation@physx@@MEAA@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "protected: virtual __cdecl physx::PxFoundation::~PxFoundation(void)" (??1PxFoundation@physx@@MEAA@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::PxFoundation::PxFoundation(void)" (__imp_??0PxFoundation@physx@@QEAA@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: __cdecl physx::PxFoundation::PxFoundation(void)" (??0PxFoundation@physx@@QEAA@XZ) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::PxFoundation::PxFoundation(class physx::PxFoundation const &)" (__imp_??0PxFoundation@physx@@QEAA@AEBV01@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: __cdecl physx::PxFoundation::PxFoundation(class physx::PxFoundation const &)" (??0PxFoundation@physx@@QEAA@AEBV01@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "__declspec(dllimport) public: __cdecl physx::shdfnd::Allocator::Allocator(char const *)" (__imp_??0Allocator@shdfnd@physx@@QEAA@PEBD@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: "public: __cdecl physx::shdfnd::Allocator::Allocator(char const *)" (??0Allocator@shdfnd@physx@@QEAA@PEBD@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
+PhysXFoundation_64.lib(PhysXFoundation_64.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+fmod_vc.lib(fmod.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+OpenCL.lib(OpenCL.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+ModelImport.obj : warning LNK4006: "public: unsigned int __cdecl aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QEBAIW4aiTextureType@@@Z) already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+ModelImport.obj : warning LNK4006: "public: enum aiReturn __cdecl aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z) already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+  SynapseEngine.vcxproj -> C:\Project\VirtualWar\VirtualWar\x64\Debug\SynapseEngine.lib

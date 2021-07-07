@@ -114,7 +114,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_STRSTREAM_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_STRSTREAM_DEPRECATION_WARNING;_WINSOCKAPI_;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
@@ -126,7 +126,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>assimp-vc140-mt.lib;SynapseEngine.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXExtensions_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysX_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXPvdSDK_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXVehicle_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXCharacterKinematic_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXCooking_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXCommon_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\SnippetUtils_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\SnippetRender_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXFoundation_64.lib;fmod_vc.lib;OpenCL.lib;Effekseerd.lib;EffekseerRendererGLd.lib;EffekseerSoundXAudio2d.lib;LLGId.lib;Synet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>assimp-vc140-mt.lib;SynapseEngine.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXExtensions_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysX_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXPvdSDK_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXVehicle_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXCharacterKinematic_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXCooking_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXCommon_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\SnippetUtils_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\SnippetRender_static_64.lib;C:\deps\physx\engine\physx\bin\win.x86_64.vc142.mt\debug\PhysXFoundation_64.lib;fmod_vc.lib;OpenCL.lib;Effekseerd.lib;EffekseerRendererGLd.lib;EffekseerSoundXAudio2d.lib;LLGId.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Project\VirtualWar\VirtualWar\x64\Debug;C:\deps\RakNet-master\Lib;C:\deps\ps\install_msvc2019\lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\lib\x64;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x64;C:\Project\VirtualWar\VirtualWar\packages\Assimp_native_4.1.4.1.0\build\native\lib\x64-Release;C:\Project\VirtualWar\VirtualWar\packages\freetype.2.8.0.1\build\native\lib\x64\v141\static\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

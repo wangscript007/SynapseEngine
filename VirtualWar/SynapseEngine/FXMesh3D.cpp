@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "FXMesh3D.h"
 
 FXMesh3D::FXMesh3D() {

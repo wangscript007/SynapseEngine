@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "IDraw.h"
 #include "Texture2D.h"
 #include "FXImageDraw.h"

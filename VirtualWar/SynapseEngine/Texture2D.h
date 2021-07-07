@@ -1,6 +1,6 @@
 #pragma once
 //#include <GL/glew.h>
-#include "pch.h"
+
 #include <thread>
 #include "VFile.h"
 #include "VString.h"

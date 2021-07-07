@@ -5,7 +5,8 @@
 #include "ParticleSystem.h"
 #include "EffeManager.h"
 #include "PlayerFirstPerson.h"
-#include "NetServer.h"
+//#include "NetServer.h"
+#include "SyConnection.h"
 class StateNetworkTest1 : public AppState
 {
 
@@ -32,6 +33,6 @@ private:
     EffeFX* fx1;
     glm::vec3 fxPos;
     PlayerFirstPerson* p1;
-    NetServer* s1;
+
 };
 
