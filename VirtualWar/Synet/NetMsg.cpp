@@ -13,7 +13,7 @@ NetMsg::NetMsg(std::string chan,int ack,char* bbuf, int bsize)
 
 }
 
-NetMsg::NetMsg(std::string chan,int ack,int bsize) {
+NetMsg::NetMsg(std::string chan,int ack,int  bsize) {
 
 	buf = new char[bsize];
 	pos = 0;
@@ -104,6 +104,21 @@ void NetMsg::PushString(std::string v) {
 
 }
 
+void NetMsg::PushLong(long v) {
+
+	long bc = 0;
+	char* bv = (char*)&v;
+	buf[pos++] = bv[bc++];
+	buf[pos++] = bv[bc++];
+	buf[pos++] = bv[bc++];
+	buf[pos++] = bv[bc++];
+	buf[pos++] = bv[bc++];
+	buf[pos++] = bv[bc++];
+	buf[pos++] = bv[bc++];
+	buf[pos++] = bv[bc++];
+}
+
+
 char NetMsg::PullChar() {
 
 	return buf[pos++];
@@ -170,6 +185,22 @@ std::string NetMsg::PullString() {
 	st[sl] = "\0"[0];
 
 	return std::string(st);
+
+}
+
+long NetMsg::PullLong() {
+
+	long r = 0;
+	char* rv = (char*)&r;
+	rv[0] = buf[pos++];
+	rv[1] = buf[pos++];
+	rv[2] = buf[pos++];
+	rv[3] = buf[pos++];
+	rv[4] = buf[pos++];
+	rv[5] = buf[pos++];
+	rv[6] = buf[pos++];
+	rv[7] = buf[pos++];
+	return r;
 
 }
 

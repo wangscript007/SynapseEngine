@@ -4,6 +4,9 @@
 #include <iostream>
 #include "SyHost.h"
 
+//std::map<std::string,Remote
+
+
 int main()
 {
     std::cout << "Hello World!\n";
@@ -19,28 +22,55 @@ int main()
         }
 
         int ec = host->EventCount();
+        int bb = 5;
+        NetMsg* m1;
 
         for (int i = 0; i < ec; i++) {
 
             NetEvent evt = host->GetEvent(i);
 
             switch (evt.Type) {
+            case NetEventType::NewClientConnected:
+
+                 bb = 5;
+
+                 m1 = new NetMsg("requestName", host->GetSendAck(), 256);
+                 host->Send(m1, evt.Peer);
+                 printf("Send name request to peer.\n");
+
+
+                break;
 
             case NetEventType::NewMessage:
 
                 auto msg = evt.Msg;
 
-                std::string res = msg->PullString();
+                if (msg->GetChannel() == "clientName")
+                {
+                    
+                    std::string name = msg->PullString();
 
-                printf("Client:");
-                printf(res.c_str());
-                printf("\n");
+                    printf("ClientName=");
+                    printf(name.c_str());
+                    printf("\n");
+                    evt.Peer->ID = name;
 
-                auto rm = new NetMsg("say", 0, 256);
-                rm->PushString(res);
 
-                host->BroadCast(rm);
+                }
+                else {
 
+                    std::string res = evt.Peer->ID + ":"+ msg->PullString();
+
+                    printf("Client:");
+                    printf(res.c_str());
+                    printf("\n");
+
+                    auto rm = new NetMsg("say", host->GetSendAck() , 256);
+                    rm->PushString(res);
+
+                    host->BroadCast(rm);
+
+                }
                     break;
 
             }

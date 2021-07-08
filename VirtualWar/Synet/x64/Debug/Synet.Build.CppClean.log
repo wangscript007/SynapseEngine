@@ -4,6 +4,7 @@ c:\project\virtualwar\synet\x64\debug\synet.obj
 c:\project\virtualwar\synet\x64\debug\syhost.obj
 c:\project\virtualwar\synet\x64\debug\syconnection.obj
 c:\project\virtualwar\synet\x64\debug\syclient.obj
+c:\project\virtualwar\synet\x64\debug\netmsg.obj
 c:\project\virtualwar\virtualwar\x64\debug\synet.lib
 c:\project\virtualwar\synet\x64\debug\synet.tlog\cl.command.1.tlog
 c:\project\virtualwar\synet\x64\debug\synet.tlog\cl.read.1.tlog

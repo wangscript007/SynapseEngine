@@ -13,23 +13,29 @@ public:
 	void PushDouble(double v);
 	void PushChar(char v);
 	void PushString(std::string v);
+	void PushLong(long v);
 	int PullInt();
+
 	float PullFloat();
 	short PullShort();
 	double PullDouble();
 	char PullChar();
 	std::string PullString();
+	long PullLong();
 
 	char* GetBuf();
 	int GetSize();
 	std::string GetChannel();
 	int GetAck();
+	int GetPos() {
+		return pos;
+	}
 private:
 	std::string chan;
 	int ack = 0;
 	char* buf;
-	short size = 0;
-	short pos;
+	int size = 0;
+	int pos;
 //	RemotePeer* intended;
 };
 

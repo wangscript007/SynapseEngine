@@ -124,7 +124,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Project\VirtualWar\VirtualWar\include;C:\deps\ps\install_msvc2019\include\EffekseerRendererGL;C:\deps\ps\install_msvc2019\include\Effekseer;C:\deps\ps\install_msvc2019\include;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;c:\deps\physx\engine\physx\snippets\Graphics\include\win32\GL;c:\deps\physx\engine\physx\source\foundation\include;c:\deps\physx\engine\physx\..\pxshared\include;c:\deps\physx\engine\physx\source\physxextensions\src;c:\deps\physx\engine\physx\include;C:\Project\VirtualWar\VirtualWar\packages\Assimp_native_4.1.4.1.0\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\project\VirtualWar\Synet;C:\Project\VirtualWar\VirtualWar\include;C:\deps\ps\install_msvc2019\include\EffekseerRendererGL;C:\deps\ps\install_msvc2019\include\Effekseer;C:\deps\ps\install_msvc2019\include;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;c:\deps\physx\engine\physx\snippets\Graphics\include\win32\GL;c:\deps\physx\engine\physx\source\foundation\include;c:\deps\physx\engine\physx\..\pxshared\include;c:\deps\physx\engine\physx\source\physxextensions\src;c:\deps\physx\engine\physx\include;C:\Project\VirtualWar\VirtualWar\packages\Assimp_native_4.1.4.1.0\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <EnableModules>false</EnableModules>
@@ -197,10 +197,15 @@
     <ClInclude Include="FXMeshPosMap.h" />
     <ClInclude Include="FXParticleSoft.h" />
     <ClInclude Include="FXTextDraw.h" />
+    <ClInclude Include="GameClient.h" />
     <ClInclude Include="GameIncludes.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="GameMode.h" />
     <ClInclude Include="GamePlayer.h" />
     <ClInclude Include="GameRenderer.h" />
+    <ClInclude Include="GameServer.h" />
     <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="GMDeathMatch.h" />
     <ClInclude Include="Helper.h" />
     <ClInclude Include="IDraw.h" />
     <ClInclude Include="ImageControl.h" />
@@ -233,6 +238,7 @@
     <ClInclude Include="Physics.h" />
     <ClInclude Include="PhysicsBody.h" />
     <ClInclude Include="PlayerFirstPerson.h" />
+    <ClInclude Include="PlayerInfo.h" />
     <ClInclude Include="ppBloom.h" />
     <ClInclude Include="ppSSR.h" />
     <ClInclude Include="SceneGraph.h" />
@@ -297,9 +303,14 @@
     <ClCompile Include="FXMeshPosMap.cpp" />
     <ClCompile Include="FXParticleSoft.cpp" />
     <ClCompile Include="FXTextDraw.cpp" />
+    <ClCompile Include="GameClient.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="GameMode.cpp" />
     <ClCompile Include="GamePlayer.cpp" />
     <ClCompile Include="GameRenderer.cpp" />
+    <ClCompile Include="GameServer.cpp" />
     <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="GMDeathMatch.cpp" />
     <ClCompile Include="IDraw.cpp" />
     <ClCompile Include="ImageControl.cpp" />
     <ClCompile Include="kEffect.cpp" />
@@ -330,6 +341,7 @@
     <ClCompile Include="Physics.cpp" />
     <ClCompile Include="PhysicsBody.cpp" />
     <ClCompile Include="PlayerFirstPerson.cpp" />
+    <ClCompile Include="PlayerInfo.cpp" />
     <ClCompile Include="ppBloom.cpp" />
     <ClCompile Include="ppSSR.cpp" />
     <ClCompile Include="SceneGraph.cpp" />

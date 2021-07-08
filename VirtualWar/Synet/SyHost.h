@@ -1,6 +1,7 @@
 #pragma once
 #include<thread>
 #include "SyConnection.h"
+#include <mutex>
 
 class SyHost :
     public SyConnection
@@ -27,10 +28,21 @@ public:
         return InUse;
     }
 
+    long GetSendAck() {
+        sAck++;
+        return sAck - 1;
+    }
+
     void Send(char* buf, int len, RemotePeer* peer);
+    void Send(NetMsg* m, RemotePeer* peer);
 
     void BroadCast(NetMsg* msg);
-
+    void lock() {
+        gm.lock();
+    }
+    void unlock() {
+        gm.unlock();
+    }
 private:
     bool InUse = false;
     struct sockaddr_in server, si_other;
@@ -38,5 +50,7 @@ private:
     WSADATA wsa;
     int slen, recv_len;
     std::vector<RemotePeer*> peers;
+    std::mutex gm;
+    long sAck = 0;
 };
 

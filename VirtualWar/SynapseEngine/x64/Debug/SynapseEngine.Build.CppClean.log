@@ -94,6 +94,13 @@ c:\project\virtualwar\synapseengine\x64\debug\uitheme.obj
 c:\project\virtualwar\synapseengine\x64\debug\uieventclick.obj
 c:\project\virtualwar\synapseengine\x64\debug\uievent.obj
 c:\project\virtualwar\synapseengine\x64\debug\uicontrol.obj
+c:\project\virtualwar\synapseengine\x64\debug\gameserver.obj
+c:\project\virtualwar\synapseengine\x64\debug\gamemode.obj
+c:\project\virtualwar\synapseengine\x64\debug\gamemap.obj
+c:\project\virtualwar\synapseengine\x64\debug\gameclient.obj
+c:\project\virtualwar\synapseengine\x64\debug\maptestarena1.obj
+c:\project\virtualwar\synapseengine\x64\debug\gmdeathmatch.obj
+c:\project\virtualwar\synapseengine\x64\debug\playerinfo.obj
 c:\project\virtualwar\virtualwar\x64\debug\synapseengine.lib
 c:\project\virtualwar\synapseengine\x64\debug\synapseengine.tlog\cl.command.1.tlog
 c:\project\virtualwar\synapseengine\x64\debug\synapseengine.tlog\cl.read.1.tlog

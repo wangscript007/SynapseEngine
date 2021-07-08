@@ -183,7 +183,7 @@ void VirtualWarApp::BeginState(AppState* st) {
 			fps = frame;
 			frame = 0;
 			lfps = t;
-			printf("FPS:%d\n", fps);
+		//	printf("FPS:%d\n", fps);
 		}
 		frame++;
 
@@ -207,7 +207,7 @@ void VirtualWarApp::BeginState(AppState* st) {
 
 		//	EditorFont->Drpha.",5,35);
 
-		EditorFont->drawText("Virtual>War - Pre-Alpha test 0.01a.", 5, 5, 1, 1, 1, 1);
+//		EditorFont->drawText("Virtual>War - Pre-Alpha test 0.01a.", 5, 5, 1, 1, 1, 1);
 
 		cs->RenderState();
 

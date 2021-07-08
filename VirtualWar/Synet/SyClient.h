@@ -1,5 +1,6 @@
 #pragma once
 #include "SyConnection.h"
+#include <mutex>
 class SyClient : public SyConnection
 {
 public:
@@ -14,6 +15,16 @@ public:
 	int MsgCount();
 	NetMsg* GetMsg(int id);
 	void ClearMsgs();
+	void lock() {
+		gm.lock();
+	}
+	void unlock() {
+		gm.unlock();
+	}
+	long GetSendAck() {
+		sAck++;
+		return sAck-1;
+	}
 private:
 
 	struct sockaddr_in si_other;
@@ -22,7 +33,10 @@ private:
 	char message[BUFLEN];
 	WSADATA wsa;
 	std::vector<NetMsg*> Msgs;
-	int cAck = 0;
+	long sAck = 0;
+	long rAck = 0;
+	std::mutex gm;
+
 
 };
 

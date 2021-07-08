@@ -564,8 +564,9 @@ kFont* UI::UIFont = NULL;
 
 void UI::RenderText(int x, int y, const char* txt, float r, float g, float b, float a) {
 
+	Drawer->Begin();
 	UIFont->drawText(txt, x, y, r, g, b, a);
-
+	Drawer->End();
 };
 
 void UI::RenderText(int x, int y, const char* txt, float r, float g, float b, float a, IDraw* Draw)

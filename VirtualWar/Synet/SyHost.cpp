@@ -69,6 +69,7 @@ void SyHost::CheckNet() {
 		printf("recvfrom() failed with error code : %d", WSAGetLastError());
 		exit(EXIT_FAILURE);
 	}
+	gm.lock();
 
 
 	//InUse = true;
@@ -90,6 +91,19 @@ void SyHost::CheckNet() {
 		auto nme = NetEvent(NetEventType::NewMessage);
 		nme.Msg = msg;
 		nme.Peer = rp;
+
+		printf("MsgACK:%d", msg->GetAck());
+		printf(" RPAck:%d\n", rp->curAck);
+
+		if (msg->GetAck() < rp->curAck) {
+			return;
+		}
+		else {
+
+			rp->curAck++;
+
+		}
+
 
 		PushEvent(nme);
 
@@ -124,9 +138,21 @@ void SyHost::CheckNet() {
 	
 		auto nce = NetEvent(NetEventType::NewClientConnected);
 		nce.Peer = new_peer;
+		new_peer->curAck = 0;
 
 		PushEvent(nce);
 
+		/*
+		for (int i = 0; i < peers.size(); i++) {
+
+			if (peers[i] != new_peer) {
+
+				NetMsg* cm = new NetMsg("clientInfo", 0, 256);
+
+
+			}
+		}
+		*/
 	}
 
 	//printf("Data: %s\n", buf);
@@ -142,6 +168,7 @@ void SyHost::CheckNet() {
 	}
 	//*/
 	InUse = false;
+	gm.unlock();
 }
 
 void SyHost::AddPeer(RemotePeer* peer) {
@@ -191,6 +218,12 @@ void SyHost::Send(char* buf, int len, RemotePeer* peer)
 		exit(EXIT_FAILURE);
 	}
 	printf("Sent to peer.\n");
+}
+
+void SyHost::Send(NetMsg* msg, RemotePeer* peer) {
+
+	Send(msg->GetBuf(), msg->GetSize(), peer);
+
 }
 
 void SyHost::BroadCast(NetMsg* msg) {

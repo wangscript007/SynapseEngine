@@ -28,11 +28,25 @@ void SyClient::CheckNet() {
 		printf("recvfrom() failed with error code : %d", WSAGetLastError());
 		exit(EXIT_FAILURE);
 	}
-
+	gm.lock();
 	printf("Client got message\n");
 
 	NetMsg* msg = new NetMsg(buf, BUFLEN);
+
+	if (msg->GetAck() < rAck) {
+		return;
+	}
+	else {
+		rAck++;
+	}
+
 	Msgs.push_back(msg);
+	NetEvent ne = NetEvent(NetEventType::NewMessage);
+	ne.Msg = msg;
+	PushEvent(ne);
+	gm.unlock();
+
+
 
 }
 
@@ -94,7 +108,7 @@ void SyClient::Connect() {
 	sdat[2] = 0;
 	sdat[3] = 3;
 
-	NetMsg* msg = new NetMsg("internal",GetAck(),255);
+	NetMsg* msg = new NetMsg("internal",GetSendAck(),255);
 
 	msg->PushInt(254);
 
@@ -106,14 +120,16 @@ void SyClient::Connect() {
 
 int SyClient::GetAck() {
 
-	cAck++;
-	return cAck-1;
+	//cAck++;
+	//return cAck-1;
+	sAck++;
+	return sAck-1;
 
 }
 
 void SyClient::Send(NetMsg* msg) {
 
-	Send(msg->GetBuf(), msg->GetSize());
+	Send(msg->GetBuf(), msg->GetPos());
 
 }
 
@@ -141,6 +157,13 @@ void SyClient::Update() {
 	}
 
 	NetMsg* m1 = new NetMsg(buf, BUFLEN);
+
+	if (m1->GetAck() < rAck) {
+
+		return;
+
+	}
+	rAck++;
 
 	Msgs.push_back(m1);
 

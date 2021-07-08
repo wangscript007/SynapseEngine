@@ -6,11 +6,52 @@
 #include <thread>
 #include <string>
 
+std::string clientName = "";
+
 
 void msg_thread(SyClient* cli1) {
 
     while (true) {
 
+        int ec = cli1->EventCount();
+
+        for (int i = 0; i < ec; i++) {
+
+            auto evt = cli1->GetEvent(i);
+
+            if (evt.Type == NetEventType::NewMessage) {
+
+                int aa = 5;
+              //  printf("Processing message.\n");
+                if (evt.Msg->GetChannel() == "requestName")
+                {
+
+                    NetMsg* name = new NetMsg("clientName", cli1->GetAck(), 256);
+              //      lack++;
+                    name->PushString(clientName);
+
+                    cli1->Send(name);
+
+                }
+                if (evt.Msg->GetChannel() == "say")
+                {
+
+                    std::string said = evt.Msg->PullString();
+
+                  //  printf("Someone said:");
+                    printf(said.c_str());
+                    printf("\n");
+
+                }
+
+            }
+
+        }
+
+        cli1->ClearEvents();
+
+
+        /*
         int mc = cli1->MsgCount();
 
         if (mc > 0) {
@@ -29,6 +70,7 @@ void msg_thread(SyClient* cli1) {
             cli1->ClearMsgs();
 
         }
+        */
         Sleep(25);
 
     }
@@ -41,6 +83,11 @@ int main()
 
     InitNetworking();
 
+
+   // std::string clientName;
+    printf("Username:");
+
+    std::getline(std::cin, clientName);
 
 
     SyClient* cli1 = new SyClient("127.0.0.1", 8888);
@@ -64,10 +111,16 @@ int main()
 
         if (say.length() > 1)
         {
+
+            int a = cli1->GetAck();
+
             printf("Sending message:");
             printf(say.c_str());
             printf("\n");
-            NetMsg* sm = new NetMsg("say", lack, 512);
+            printf("Ack:%d\n", a);
+            NetMsg* sm = new NetMsg("say",a, 512);
+            //lack++;
+
             sm->PushString(say);
             cli1->Send(sm);
             say = "";

@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Project\VirtualWar\VirtualWar\x64\Debug\VirtualWar.exe</FullPath>
+      <FullPath>C:\project\VirtualWar\VirtualWar\x64\Debug\VirtualWar.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
