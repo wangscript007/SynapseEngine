@@ -29,7 +29,7 @@ void GameServer::UpdateServer() {
 
             bb = 5;
 
-            m1 = new NetMsg("requestInfo", 0, 256);
+            m1 = new NetMsg("requestInfo", 0,MsgSendType::Reliable, 256);
             Host->Send(m1, evt.Peer);
             printf("Send name request to peer.\n");
 

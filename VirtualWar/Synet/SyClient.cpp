@@ -13,6 +13,48 @@ void ClientThread(SyClient* cli) {
 
 }
 
+
+void ReliableThread(SyClient* cli) {
+
+
+	while (true) {
+
+		cli->CheckReliable();
+		Sleep(10);
+
+	}
+
+}
+
+void SyClient::CheckReliable() {
+
+	int time = clock();
+
+
+	for(int i=0;i<reliableQueue.size();i++)
+	{
+
+		auto m = reliableQueue[i];
+
+		int lt = m->GetLastSend();
+
+		if (time > (lt + 1500)) {
+
+			m->SetLastSend(time);
+
+		//	Send(m->GetBuf(), m->GetSize());
+		
+		}
+
+
+		//int ltime = m->
+
+
+	}
+
+
+}
+
 void SyClient::CheckNet() {
 
 	fflush(stdout);
@@ -33,12 +75,52 @@ void SyClient::CheckNet() {
 
 	NetMsg* msg = new NetMsg(buf, BUFLEN);
 
+	if (msg->GetChannel() == "Ack")
+	{
+
+		std::vector<NetMsg*> nq;
+		int aid = msg->GetAck();
+		//reliableQueue.erase(aid);
+		for (int i = 0; i < reliableQueue.size(); i++) {
+
+			if (reliableQueue[i]->GetAck() == aid) {
+				printf("Confirmed Chan:");
+				printf(reliableQueue[i]->GetChannel().c_str());
+
+			}
+			else {
+				nq.push_back(reliableQueue[i]);
+			}
+
+		}
+		reliableQueue = nq;
+
+		printf("Confirmed reliable message:%d\n", aid);
+		//InUse = false;
+		gm.unlock();
+
+		return;
+	}
+
 	if (msg->GetAck() < rAck) {
+		gm.unlock();
 		return;
 	}
 	else {
 		rAck++;
 	}
+
+	int mtype = msg->GetSendType();
+	printf("MTYPE:%d\n", mtype);
+	if (mtype == MsgSendType::Reliable) {
+
+		NetMsg* sm = new NetMsg("Ack", msg->GetAck(), MsgSendType::Unreliable, 256);
+		Send(sm);
+		printf("Sent confirm. Ack:%d \n", sm->GetAck());
+
+	}
+
+//	while (true) {}
 
 	Msgs.push_back(msg);
 	NetEvent ne = NetEvent(NetEventType::NewMessage);
@@ -96,6 +178,8 @@ SyClient::SyClient(const char* ip, int port) {
 
 	std::thread ClientThr(ClientThread, this);
 	ClientThr.detach();
+	std::thread reliableThr(ReliableThread, this);
+	reliableThr.detach();
 
 }
 
@@ -108,7 +192,7 @@ void SyClient::Connect() {
 	sdat[2] = 0;
 	sdat[3] = 3;
 
-	NetMsg* msg = new NetMsg("internal",GetSendAck(),255);
+	NetMsg* msg = new NetMsg("internal",GetSendAck(),MsgSendType::Reliable,255);
 
 	msg->PushInt(254);
 
@@ -130,6 +214,12 @@ int SyClient::GetAck() {
 void SyClient::Send(NetMsg* msg) {
 
 	Send(msg->GetBuf(), msg->GetPos());
+	if (msg->GetSendType() == MsgSendType::Reliable) {
+
+		msg->SetLastSend(clock());
+		reliableQueue.push_back(msg);
+
+	}
 
 }
 
@@ -163,8 +253,10 @@ void SyClient::Update() {
 		return;
 
 	}
-	rAck++;
+	
 
+	
+	rAck++;
 	Msgs.push_back(m1);
 
 

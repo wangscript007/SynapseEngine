@@ -43,6 +43,10 @@ public:
     void unlock() {
         gm.unlock();
     }
+
+    void CheckReliable();
+    void Confirm(NetMsg* msg,RemotePeer* p);
+
 private:
     bool InUse = false;
     struct sockaddr_in server, si_other;

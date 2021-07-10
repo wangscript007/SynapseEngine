@@ -10,6 +10,54 @@ void HostThread(SyHost* host) {
 
 }
 
+void ReliableThread(SyHost* host) {
+
+	while (true) {
+		host->CheckReliable();
+	}
+
+}
+
+void SyHost::CheckReliable() {
+
+	int time = clock();
+
+	gm.lock();
+
+	for (int i = 0; i < peers.size(); i++) {
+
+		auto p = peers[i];
+				
+		if (p->reliableQueue.size() == 0 ) continue;
+
+		for(int j=0;j<p->reliableQueue.size();j++)
+		{
+
+			auto m = p->reliableQueue[j];
+
+			if (m == nullptr) continue;
+
+			int lt = m->GetLastSend();
+
+			if (time > (lt + 1500)) {
+
+				m->SetLastSend(time);
+
+				Send(m->GetBuf(), m->GetSize(), p);
+			}
+
+
+			//int ltime = m->
+
+
+		}
+
+	}
+
+	gm.unlock();
+
+}
+
 SyHost::SyHost(int port) {
 
 
@@ -50,6 +98,9 @@ SyHost::SyHost(int port) {
 	std::thread load(HostThread, this);
 	load.detach();
 
+	std::thread check(ReliableThread, this);
+	check.detach();
+
 }
 
 void SyHost::CheckNet() {
@@ -86,7 +137,33 @@ void SyHost::CheckNet() {
 	//	std::string res = msg->PullString();
 
 		auto rp = FindPeer(inet_ntoa(si_other.sin_addr), ntohs(si_other.sin_port));
+		
+		if (msg->GetChannel() == "Ack")
+		{
+
+			int aid = msg->GetAck();
+			std::vector<NetMsg*> nq;
+			for (int i = 0; i < rp->reliableQueue.size(); i++) {
+				if (rp->reliableQueue[i]->GetAck() == aid)
+				{
+
+				}
+				else {
+					nq.push_back(rp->reliableQueue[i]);
+						
+				}
+				//rp->reliableQueue.erase(aid);
+			}
+			rp->reliableQueue = nq;
+
+			printf("Confirmed reliable message:%d\n", aid);
+			InUse = false;
+			gm.unlock();
+			return;
+		}
+		
 		rp->Msgs.push_back(msg);
+
 
 		auto nme = NetEvent(NetEventType::NewMessage);
 		nme.Msg = msg;
@@ -94,8 +171,13 @@ void SyHost::CheckNet() {
 
 		printf("MsgACK:%d", msg->GetAck());
 		printf(" RPAck:%d\n", rp->curAck);
+		printf("Channel:");
+		printf(msg->GetChannel().c_str());
+		printf("\n");
 
 		if (msg->GetAck() < rp->curAck) {
+			InUse = false;
+			gm.unlock();
 			return;
 		}
 		else {
@@ -104,7 +186,7 @@ void SyHost::CheckNet() {
 
 		}
 
-
+		Confirm(msg,rp);
 		PushEvent(nme);
 
 	//	rp->MMsgs[msg->GetChannel()].push_back(msg);
@@ -140,6 +222,7 @@ void SyHost::CheckNet() {
 		nce.Peer = new_peer;
 		new_peer->curAck = 0;
 
+		Confirm(msg,new_peer);
 		PushEvent(nce);
 
 		/*
@@ -169,6 +252,15 @@ void SyHost::CheckNet() {
 	//*/
 	InUse = false;
 	gm.unlock();
+}
+
+void SyHost::Confirm(NetMsg* m,RemotePeer* p) {
+
+	NetMsg* qm = new NetMsg("Ack", m->GetAck(), MsgSendType::Unreliable, 64);
+	Send(qm, p);
+	printf("Sent Confirm for chan:");
+	printf(m->GetChannel().c_str());
+	printf("\n");
 }
 
 void SyHost::AddPeer(RemotePeer* peer) {
@@ -223,6 +315,11 @@ void SyHost::Send(char* buf, int len, RemotePeer* peer)
 void SyHost::Send(NetMsg* msg, RemotePeer* peer) {
 
 	Send(msg->GetBuf(), msg->GetSize(), peer);
+	if (msg->GetSendType() == MsgSendType::Reliable)
+	{
+		peer->reliableQueue.push_back(msg);
+		msg->SetLastSend(clock());
+	}
 
 }
 

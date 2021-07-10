@@ -34,7 +34,7 @@ int main()
 
                  bb = 5;
 
-                 m1 = new NetMsg("requestName", host->GetSendAck(), 256);
+                 m1 = new NetMsg("requestName", host->GetSendAck(),MsgSendType::Reliable, 256);
                  host->Send(m1, evt.Peer);
                  printf("Send name request to peer.\n");
 
@@ -65,7 +65,7 @@ int main()
                     printf(res.c_str());
                     printf("\n");
 
-                    auto rm = new NetMsg("say", host->GetSendAck() , 256);
+                    auto rm = new NetMsg("say", host->GetSendAck() ,MsgSendType::Reliable, 256);
                     rm->PushString(res);
 
                     host->BroadCast(rm);

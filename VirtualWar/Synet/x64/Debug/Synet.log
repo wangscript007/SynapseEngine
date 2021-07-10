@@ -1,6 +1,5 @@
-﻿  SyClient.cpp
+﻿  SyHost.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock2.h(17,1): warning C4005: '_WINSOCKAPI_': macro redefinition
-C:\project\VirtualWar\Synet\SyClient.cpp : message : see previous definition of '_WINSOCKAPI_'
-C:\project\VirtualWar\Synet\SyClient.cpp(55,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\project\VirtualWar\Synet\SyClient.cpp(83,17): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\project\VirtualWar\Synet\SyHost.cpp : message : see previous definition of '_WINSOCKAPI_'
+C:\project\VirtualWar\Synet\SyHost.h(18,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   Synet.vcxproj -> C:\project\VirtualWar\VirtualWar\x64\Debug\Synet.lib

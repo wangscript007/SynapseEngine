@@ -24,7 +24,7 @@ void Client_Thr(GameClient* cli)
                 if (evt.Msg->GetChannel() == "requestInfo")
                 {
 
-                    NetMsg* name = new NetMsg("clientInfo", 0, 256);
+                    NetMsg* name = new NetMsg("clientInfo", 0,MsgSendType::Reliable, 256);
                     name->PushString(cli->info->Name);
                     name->PushString(cli->info->ClanName);
                     

@@ -1,6 +1,6 @@
 #include "NetMsg.h"
 
-NetMsg::NetMsg(std::string chan,int ack,char* bbuf, int bsize)
+NetMsg::NetMsg(std::string chan,int ac,MsgSendType sendType,char* bbuf, int bsize)
 {
 
 	buf = new char[bsize];
@@ -9,18 +9,22 @@ NetMsg::NetMsg(std::string chan,int ack,char* bbuf, int bsize)
 		buf[i] = bbuf[i];
 
 	}
+	sType = sendType;
 	size = bsize;
+	ack = ac;
 
 }
 
-NetMsg::NetMsg(std::string chan,int ack,int  bsize) {
+NetMsg::NetMsg(std::string chan,int ac,MsgSendType sendType,int  bsize) {
 
 	buf = new char[bsize];
 	pos = 0;
 	size = bsize;
-
+	sType = sendType;
+	ack = ac;
 	PushString(chan);
 	PushInt(ack);
+	PushInt((int)sendType);
 
 
 }
@@ -39,6 +43,7 @@ NetMsg::NetMsg(char* bbuf, int bsize) {
 	pos = 0;
 	chan = PullString();
 	ack = PullInt();
+	sType = (MsgSendType)PullInt();
 
 }
 

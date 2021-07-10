@@ -1,8 +1,4 @@
-﻿  GameServer.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock2.h(17,1): warning C4005: '_WINSOCKAPI_': macro redefinition
-C:\project\VirtualWar\SynapseEngine\GameServer.cpp : message : see previous definition of '_WINSOCKAPI_'
-C:\project\VirtualWar\Synet\SyHost.h(18,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-PhysX_64.lib(PhysX_64.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
+﻿PhysX_64.lib(PhysX_64.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in assimp-vc140-mt.lib(assimp-vc140-mt.dll); second definition ignored
 PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual void __cdecl physx::shdfnd::Foundation::setReportAllocationNames(bool)" (__imp_?setReportAllocationNames@Foundation@shdfnd@physx@@UEAAX_N@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
 PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "public: virtual void __cdecl physx::shdfnd::Foundation::setReportAllocationNames(bool)" (?setReportAllocationNames@Foundation@shdfnd@physx@@UEAAX_N@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored
 PhysXCooking_64.lib(PhysXCooking_64.dll) : warning LNK4006: "__declspec(dllimport) public: virtual void __cdecl physx::shdfnd::Foundation::setErrorLevel(enum physx::PxErrorCode::Enum)" (__imp_?setErrorLevel@Foundation@shdfnd@physx@@UEAAXW4Enum@PxErrorCode@3@@Z) already defined in PhysX_64.lib(PhysX_64.dll); second definition ignored

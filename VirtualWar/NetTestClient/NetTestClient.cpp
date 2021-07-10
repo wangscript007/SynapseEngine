@@ -26,7 +26,7 @@ void msg_thread(SyClient* cli1) {
                 if (evt.Msg->GetChannel() == "requestName")
                 {
 
-                    NetMsg* name = new NetMsg("clientName", cli1->GetAck(), 256);
+                    NetMsg* name = new NetMsg("clientName", cli1->GetAck(),MsgSendType::Reliable, 256);
               //      lack++;
                     name->PushString(clientName);
 
@@ -118,7 +118,7 @@ int main()
             printf(say.c_str());
             printf("\n");
             printf("Ack:%d\n", a);
-            NetMsg* sm = new NetMsg("say",a, 512);
+            NetMsg* sm = new NetMsg("say",a,MsgSendType::Reliable, 512);
             //lack++;
 
             sm->PushString(say);

@@ -25,6 +25,7 @@ public:
 		sAck++;
 		return sAck-1;
 	}
+	void CheckReliable();
 private:
 
 	struct sockaddr_in si_other;
@@ -36,7 +37,7 @@ private:
 	long sAck = 0;
 	long rAck = 0;
 	std::mutex gm;
-
+	std::vector<NetMsg*> reliableQueue;
 
 };
 

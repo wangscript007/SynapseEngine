@@ -14,6 +14,7 @@ struct RemotePeer {
 
 	std::vector<NetMsg*> Msgs;
 	std::map<std::string, std::vector<NetMsg*>> MMsgs;
+	std::vector<NetMsg*> reliableQueue;
 	std::string ID;
 
 	void ClearMsgs() {

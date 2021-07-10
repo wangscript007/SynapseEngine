@@ -1,10 +1,3 @@
-﻿  StateTestServer.cpp
-C:\Project\VirtualWar\Synet\SyHost.h(18,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  TestServer1.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
-C:\project\VirtualWar\VirtualWar\packages\glfw.3.3.4\build\native\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
-C:\Project\VirtualWar\Synet\SyHost.h(18,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\project\VirtualWar\VirtualWar\x64\Debug\TestServer1.exe) does not match the Linker's OutputFile property value (C:\project\VirtualWar\VirtualWar\TestServer11.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\project\VirtualWar\VirtualWar\x64\Debug\TestServer1.exe) does not match the Linker's OutputFile property value (C:\project\VirtualWar\VirtualWar\TestServer11.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1365,5): warning MSB8012: TargetName(TestServer1) does not match the Linker's OutputFile property value (TestServer11). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
   TestServer1.vcxproj -> C:\project\VirtualWar\VirtualWar\x64\Debug\TestServer1.exe
